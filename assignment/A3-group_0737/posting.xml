@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE postings SYSTEM "posting.dtd">
+<postings>
+   <posting pID="p123">
+      <position>
+         sale representative
+      </position>
+      <reqSkill what="SQL" level="1" importance="2" />
+      <reqSkill what="Python" level="2" importance="2" />
+      <questions>
+         <question qID="1">
+	    what is SQL?
+	 </question>  
+         <question qID="2">
+	    what is Python?
+	 </question> 
+      </questions>
+   </posting>
+   <posting pID="p666">
+      <position>
+         manager
+      </position>
+      <reqSkill what="SQL" level="4" importance="4" />
+      <reqSkill what="R" level="3" importance="2" />
+      <reqSkill what="LaTeX" level="3" importance="2" />
+      <questions>
+         <question qID="1">
+	    what is SQL?
+	 </question>  
+         <question qID="2">
+	    what is R?
+	 </question> 
+      </questions>
+   </posting>
+</postings>
+
+

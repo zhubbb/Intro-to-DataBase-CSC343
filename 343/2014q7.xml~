@@ -1,0 +1,21 @@
+ 
+<?xml version="1.0" standalone="yes"?>
+<foo a="1">
+<bar b="hi" c="5">
+<baz a="15" />
+<qux>Data</qux>
+</bar>
+<bar b="good" c="4">
+</bar>
+<bar b="bye">
+<baz a="19" />
+<baz a="10" />
+<baz a="0" />
+</bar>
+<bar b="greetings" c="1">
+<qux>Dream</qux>
+<qux>Electric</qux>
+<baz a="16" />
+<qux>Sheep</qux>
+</bar>
+</foo>

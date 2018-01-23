@@ -1,0 +1,144 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=MRUTime)(B9=sortColumns)(BA=retainBy)(BB=daysToKeepHdrs)
+  (BC=numHdrsToKeep)(BD=daysToKeepBodies)(BE=keepUnreadOnly)
+  (BF=useServerDefaults)(C0=cleanupBodies)(C1=applyToFlaggedMessages)
+  (C2=useServerRetention)(C3=storeToken)(C4=account)(C5=dateReceived)
+  (C6=ProtoThreadFlags)(C7=junkscore)(C8=keywords)(C9=imageSize)
+  (CA=sender_name)(CB=customSortCol)(CC=preview)(CD=notAPhishMessage)
+  (80=ns:msg:db:row:scope:msgs:all)(81=subject)(82=sender)(83=message-id)
+  (84=references)(85=recipients)(86=date)(87=size)(88=flags)(89=priority)
+  (8A=label)(8B=statusOfset)(8C=numLines)(8D=ccList)(8E=msgThreadId)
+  (8F=threadId)(90=threadFlags)(91=threadNewestMsgDate)(92=children)
+  (93=unreadChildren)(94=threadSubject)(95=numRefs)(96=msgCharSet)
+  (97=ns:msg:db:table:kind:msgs)(98=ns:msg:db:table:kind:thread)
+  (99=ns:msg:db:table:kind:allthreads)
+  (9A=ns:msg:db:row:scope:threads:all)(9B=threadParent)(9C=threadRoot)
+  (9D=msgOffset)(9E=offlineMsgSize)
+  (9F=ns:msg:db:row:scope:dbfolderinfo:all)
+  (A0=ns:msg:db:table:kind:dbfolderinfo)(A1=numMsgs)(A2=numNewMsgs)
+  (A3=folderSize)(A4=expungedBytes)(A5=folderDate)(A6=highWaterKey)
+  (A7=mailboxName)(A8=UIDValidity)(A9=totPendingMsgs)
+  (AA=unreadPendingMsgs)(AB=expiredMark)(AC=version)(AD=folderName)
+  (AE=charSet)(AF=sortType)(B0=sortOrder)(B1=viewFlags)(B2=viewType)
+  (B3=current-view)(B4=charSetOverride)(B5=bccList)
+  (B6=fixedBadRefThreading)(B7=columnStates)>
+<(81=0)(90=56a11b11)(80=1)>[1:m(^9C=0)(^8F=0)(^91^90)(^90=0)(^92=1)
+    (^93=0)]
+<(92=4c5)(9C=56a3adec)>[2:m(^9C^92)(^8F^92)(^91^9C)(^90=0)(^92=1)(^93=0)]
+<(A1=cd1)(A6=56e4a3e3)>[3:m(^9C^A1)(^8F^A1)(^91^A6)(^90=0)(^92=1)(^93=0)]
+<(AC=1924)>[4:m(^9C^AC)(^8F^AC)(^91^90)(^90=0)(^92=1)(^93=0)]
+<(BC=1de9)>[5:m(^9C^BC)(^8F^BC)(^91^9C)(^90=0)(^92=1)(^93=0)]
+<(BF=25f5)(DF=56e503f4)(AB=3)>[6:m(^9C^BF)(^8F^BF)(^91^DF)(^90=0)(^92=3)
+    (^93=1)]
+
+<(97=1221)(8A=55)(98=frank@cs.toronto.edu)(99
+    =c3zhanhh@cdf.utoronto.ca;c6zhangx@cdf.utoronto.ca)(9A
+    =[CSC401/2511] Groups)(9B
+    =20160123164428.C9D3A7A07C0@apps0.cs.toronto.edu)(8F=account2)(9D
+    =56a3adf2)(9E=80c)(9F=17)(94=ffffffff)(B6=1|frank@cs.toronto.edu)>
+{4C5:^80 {(k^98:c)(s=9)2:m } [4C5(^9D^92)(^C3^97)(^88=1)(^8A=0)(^8B=55)
+    (^82^98)(^85^99)(^81^9A)(^83^9B)(^C4^8F)(^86^9C)(^C5^9D)(^89=1)
+    (^87^9E)(^8C=17)(^9B^94)(^8E^92)(^C6=0)(^CA^B6)]}
+
+<(8B="Grant Erin" <t5grante@cdf.toronto.edu>)(8C=c6zhangx@cdf.toronto.edu)
+  (8D=CSC CSC401/2511: Please change your partner file permissions)
+  (8E=20160121175321.GA12729@cdf.toronto.edu)(91=us-ascii)(93=e)(B7
+    =1|Grant Erin)(AE
+    =Hi c6zhangx, The TAs cannot access your .csc401partner file to determine \
+your group member. Please run the following two commands (on CDF\) BY 6PM TONI\
+GHT (Jan. 21\): chmod 711 ~/ chmod 644 ~/.csc401partner Thanks! Erin From - Sa\
+t Ma)>
+{0:^80 {(k^98:c)(s=9)1:m } [0(^9D=0)(^C3=0)(^88=1)(^8A=0)(^8B=55)(^82^8B)
+    (^85^8C)(^81^8D)(^83^8E)(^C4^8F)(^86^90)(^C5^90)(^89=1)(^96^91)
+    (^87^92)(^8C=e)(^9B^94)(^8E=0)(^C6=0)(^CA^B7)(^CC^AE)]}
+
+<(A2=3281)(B4=10000003)(A3
+    =c3zhanhh@cdf.utoronto.ca; c6zhangx@cdf.utoronto.ca)(A4
+    =[CSC401/2511] ASSIGNMENT 1 MARKS!!!!)(A5
+    =20160312231859.6DA757A0471@apps0.cs.toronto.edu)(A7=56e4a3e5)(A9=c53)
+  (AA=54)(B9=6436)(BD=7657)(C0=9717)(B0=10000001)(C1=c5e)(C3=3253)(C4
+    =12883)(D4=11)(C5=Frank Rudzicz <frank@spoclab.com>)(C6
+    =Zhang Xian <c6zhangx@cdf.toronto.edu>)(C7
+    ="eringrant@cs.toronto.edu" <eringrant@cs.toronto.edu>, "sraimond@cs.toron\
+to.edu" <sraimond@cs.toronto.edu>, "louis.tan@mail.utoronto.ca" <louis.tan@mai\
+l.utoronto.ca>)(C9
+    =85FB8253-7AF2-44D4-B30A-9928C85D3AB5@SPOClab.onmicrosoft.com)(CA
+    =<20160312231859.6DA757A0471@apps0.cs.toronto.edu> <56E4B2D4.4060900@cdf.t\
+oronto.edu>)(CB=56e4cc5c)(CC=56e4cc73)(CD=4944)(CE=11d)(D0=1|Frank Rudzicz)
+  (D1=7b97)(D9=31639)(E1=10000010)(DA
+    =Erin Grant <eringrant@cs.toronto.edu>)(DB
+    =Frank Rudzicz <frank@spoclab.com>, Zhang Xian <c6zhangx@cdf.toronto.edu>)
+  (DC
+    ="sraimond@cs.toronto.edu" <sraimond@cs.toronto.edu>, "louis.tan@mail.utor\
+onto.ca" <louis.tan@mail.utoronto.ca>)(DD
+    =CAHhEt5NiWDF08dOmukUdaiRhA18qqrYNaLQ4Dd_rp_Ni=yf6yQ@mail.gmail.com)
+  (DE
+    =<20160312231859.6DA757A0471@apps0.cs.toronto.edu> <56E4B2D4.4060900@cdf.t\
+oronto.edu> <85FB8253-7AF2-44D4-B30A-9928C85D3AB5@SPOClab.onmicrosoft.com>)
+  (E0=56e503fe)(E2=4675)(E3=148)(E8
+    =Hi Zhang, The fact that we have a rubric for you is a mistake due to the \
+fact that you were included in the assignment partner pairing process before y\
+ou dropped the course. Cheers, Erin On Sat, 12 Mar 2016 at 21:12 Frank Rudzicz\
+ <frank@spoc)>
+{1:^80 {(k^97:c)(s=9)} 0 4C5 
+  [CD1(^9D^A1)(^C3^A2)(^88^B4)(^8A=0)(^8B=55)(^82^98)(^85^A3)(^81^A4)
+    (^83^A5)(^C4^8F)(^86^A6)(^C5^A7)(^89=1)(^87^A9)(^8C=54)(^9B^94)
+    (^8E^A1)(^C6=0)(^CA^B6)]
+  [1924(^9D^AC)(^C3^B9)(^88=1)(^8A=0)(^8B=55)(^82^8B)(^85^8C)(^81^8D)
+    (^83^8E)(^C4^8F)(^86^90)(^C5^90)(^89=1)(^96^91)(^87^92)(^8C=e)(^9B^94)
+    (^8E^AC)(^C6=0)(^CA^B7)(^CC^AE)]
+  [1DE9(^9D^BC)(^C3^BD)(^88=1)(^8A=0)(^8B=55)(^82^98)(^85^99)(^81^9A)
+    (^83^9B)(^C4^8F)(^86^9C)(^C5^9D)(^89=1)(^87^9E)(^8C=17)(^9B^94)
+    (^8E^BC)(^C6=0)(^CA^B6)]
+  [25F5(^9D^BF)(^C3^C0)(^88^B0)(^8A=0)(^8B=55)(^82^98)(^85^A3)(^81^A4)
+    (^83^A5)(^C4^8F)(^86^A6)(^C5^A7)(^89=1)(^87^C1)(^8C=54)(^9B^94)
+    (^8E^BF)(^C6=0)(^CA^B6)]
+  [3253(^9D^C3)(^C3^C4)(^88=11)(^8A=0)(^8B=55)(^82^C5)(^85^C6)(^8D^C7)
+    (^81^A4)(^83^C9)(^C4^8F)(^84^CA)(^86^CB)(^C5^CC)(^89=1)(^87^CD)
+    (^8C^CE)(^9B^BF)(^8E^BF)(^C6=0)(^CA^D0)]
+  [7B97(^9D^D1)(^C3^D9)(^88^E1)(^8A=0)(^8B=55)(^82^DA)(^85^DB)(^8D^DC)
+    (^81^A4)(^83^DD)(^C4^8F)(^84^DE)(^86^DF)(^C5^E0)(^89=1)(^87^E2)
+    (^8C^E3)(^9B^C3)(^8E^BF)(^C6=0)(^CC^E8)]}
+{1924:^80 {(k^98:c)(s=9)4:m } 1924 }
+{1DE9:^80 {(k^98:c)(s=9)5:m } 1DE9 }
+{CD1:^80 {(k^98:c)(s=9)3:m } CD1 }
+{25F5:^80 {(k^98:c)(s=9)6:m } 25F5 3253 7B97 }
+{FFFFFFFD:^9A {(k^99:c)(s=9)} [0(^94^8D)]
+  [4C5(^94^9A)]
+  [CD1(^94^A4)]
+  [1924(^94^8D)]
+  [1DE9(^94^9A)]
+  [25F5(^94^A4)]}
+
+<(E6=c20c)(E7=56e5900b)(83=1004)(84=Inbox)(85=12)(E5=1457885196)(87=)
+  (89
+    ={"threadCol":{"visible":true,"ordinal":"1"},"flaggedCol":{"visible":true,\
+"ordinal":"21"},"attachmentCol":{"visible":true,"ordinal":"3"},"subjectCol":{"\
+visible":true,"ordinal":"5"},"unreadButtonColHeader":{"visible":true,"ordinal"\
+:"7"},"senderCol":{"visible":true,"ordinal":"9"},"recipientCol":{"visible":fal\
+se,"ordinal":"11"},"junkStatusCol":{"visible":true,"ordinal":"13"},"receivedCo\
+l":{"visible":false,"ordinal":"33"},"dateCol":{"visible":true,"ordinal":"15"},\
+"statusCol":{"visible":false,"ordinal":"17"},"sizeCol":{"visible":false,"ordin\
+al":"19"},"tagsCol":{"visible":false,"ordinal":"35"},"accountCol":{"visible":f\
+alse,"ordinal":"23"},"priorityCol":{"visible":false,"ordinal":"25"},"unreadCol\
+":{"visible":false,"ordinal":"27"},"totalCol":{"visible":false,"ordinal":"29"}\
+,"locationCol":{"visible":false,"ordinal":"37"},"idCol":{"visible":false,"ordi\
+nal":"31"}})(E4=8)>
+{1:^9F {(k^A0:c)(s=9)} 
+  [1(^AC=1)(^A3^E6)(^A5^E7)(^88^83)(^AD^84)(^AF=12)(^B0=1)(^B1=0)(^B2=0)
+    (^B6=1)(^B8^E5)(^B9=)(^B7^89)(^C2=1)(^A1=8)(^A2=1)(^A6^D1)]}
+
+@$${25{@
+[6:m(^93=0)]
+<(EA=10000011)(E9=1|Erin Grant)>
+[-7B97:^80(^9D^D1)(^C3^D9)(^88^EA)(^8A=0)(^8B=55)(^82^DA)(^85^DB)(^8D^DC)
+    (^81^A4)(^83^DD)(^C4^8F)(^84^DE)(^86^DF)(^C5^E0)(^89=1)(^87^E2)
+    (^8C^E3)(^9B^C3)(^8E^BF)(^C6=0)(^CC^E8)(^CA^E9)]
+<(EB=56e59035)>[-1:^9F(^AC=1)(^A3^E6)(^A5^EB)(^88^83)(^AD^84)(^AF=12)
+    (^B0=1)(^B1=0)(^B2=0)(^B6=1)(^B8^E5)(^B9=)(^B7^89)(^C2=1)(^A1=8)
+    (^A2=0)(^A6^D1)]
+@$$}25}@
+
+@$${26{@
+@$$}26}@

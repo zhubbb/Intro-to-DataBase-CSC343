@@ -1,0 +1,1 @@
+doc("party.xml")//Invitee

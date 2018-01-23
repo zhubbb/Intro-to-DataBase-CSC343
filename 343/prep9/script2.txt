@@ -1,0 +1,41 @@
+dbsrv1:~/prep9% galax-run q1.xq
+<PROPERTY id="p927511" owner="owner_2">
+      <ADDRESS>
+         <STREET_NUM>80</STREET_NUM>
+         <STREET>Beverly Street</STREET>
+         <CITY>Toronto</CITY>
+         <PROVINCE>ON</PROVINCE>
+         <COUNTRY>Canada</COUNTRY>
+         <POSTCODE>M5T 1Y1</POSTCODE>
+      </ADDRESS>
+      <RESIDENTIAL>
+         <MULTI_UNIT>
+            <UNIT id="punit 1" bedrooms="1" ca="no" utilities="yes">
+               <INFO>
+                  <RENT_AMOUNT>500</RENT_AMOUNT>
+                  <RENT_PERIOD>monthly</RENT_PERIOD>
+               </INFO>
+            </UNIT>
+            <UNIT id="punit 2" bedrooms="2" ca="no" utilities="yes">
+               <INFO>
+                  <RENT_AMOUNT>400</RENT_AMOUNT>
+                  <RENT_PERIOD>monthly</RENT_PERIOD>
+               </INFO>
+            </UNIT>
+            <UNIT id="punit 3" bedrooms="1" ca="no" utilities="yes">
+               <INFO rented_by="renter_1">
+                  <RENT_AMOUNT>800</RENT_AMOUNT>
+                  <RENT_PERIOD>monthly</RENT_PERIOD>
+            </INFO>
+            </UNIT>
+      </MULTI_UNIT>
+      </RESIDENTIAL>
+   </PROPERTY>
+dbsrv1:~/prep9% galax-run q2.xq
+<RENT_AMOUNT>5000</RENT_AMOUNT>,
+<RENT_AMOUNT>2000</RENT_AMOUNT>,
+<RENT_AMOUNT>15000</RENT_AMOUNT>,
+<RENT_AMOUNT>1875</RENT_AMOUNT>
+dbsrv1:~/prep9% galax-run q3.xq
+attribute id {"p321456"}, attribute id {"p3214563"}
+

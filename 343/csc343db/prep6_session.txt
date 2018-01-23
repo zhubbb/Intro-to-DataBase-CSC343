@@ -1,0 +1,31 @@
+
+csc343h-c6zhangx=> \i world_empty.sql 
+psql:world_empty.sql:1: NOTICE:  drop cascades to 2 other objects
+DETAIL:  drop cascades to table country
+drop cascades to table countrylanguage
+DROP SCHEMA
+CREATE SCHEMA
+SET
+CREATE TABLE
+CREATE TABLE
+csc343h-c6zhangx=> \i prep_queries.txt 
+INSERT 0 3
+INSERT 0 3
+DELETE 1
+UPDATE 1
+csc343h-c6zhangx=> select * from country 
+csc343h-c6zhangx-> ;
+ code |   name   | continent | population 
+------+----------+-----------+------------
+ MAR  | Qumar    | Pangaea   |       3380
+ BOR  | Borduria | Luna      |       1000
+(2 rows)
+
+csc343h-c6zhangx=> select * from countrylanguage 
+csc343h-c6zhangx-> ;
+ countrycode | countrylanguage | isofficial | percentage 
+-------------+-----------------+------------+------------
+ BOR         | English         |            |           
+ BOR         | Italian         |            |           
+ BOR         | Klingon         |            |           
+(3 rows)

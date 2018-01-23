@@ -1,0 +1,1128 @@
+From - Sat Mar 12 19:20:12 2016
+X-Account-Key: account2
+X-UIDL: a(n"!!5Y"!2J8"!^i>!!
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <t5grante@cdf.toronto.edu>
+Delivered-To: c6zhangx@cdf.toronto.edu
+Received: (qmail 43384 invoked from network); 21 Jan 2016 12:53:21 -0500
+Received: from cdf.toronto.edu (HELO wolf.cdf.toronto.edu) (128.100.31.200)
+  by fs5.cdf.toronto.edu with SMTP; 21 Jan 2016 12:53:21 -0500
+Received: (qmail 12740 invoked by uid 1475); 21 Jan 2016 12:53:21 -0500
+Date: 21 Jan 2016 12:53:21 -0500
+Message-ID: <20160121175321.GA12729@cdf.toronto.edu>
+From: "Grant Erin" <t5grante@cdf.toronto.edu>
+To: c6zhangx@cdf.toronto.edu
+Subject: CSC CSC401/2511: Please change your partner file permissions
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.5.21 (2010-09-15)
+X-UIDL: a(n"!!5Y"!2J8"!^i>!!
+Status: O
+
+Hi c6zhangx, 
+
+The TAs cannot access your .csc401partner file to determine your group member.
+
+Please run the following two commands (on CDF) BY 6PM TONIGHT (Jan. 21):
+
+	chmod 711 ~/
+	chmod 644 ~/.csc401partner
+
+Thanks!
+
+Erin
+
+
+From - Sat Mar 12 19:20:12 2016
+X-Account-Key: account2
+X-UIDL: PDE!!`K1"!l""#!^U+"!
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <frank@cs.toronto.edu>
+Delivered-To: c6zhangx@cdf.utoronto.ca
+Received: (qmail 58898 invoked from network); 23 Jan 2016 11:44:34 -0500
+Received: from puffin.cdf.toronto.edu (HELO smtp-gate.cdf.toronto.edu) (128.100.31.105)
+  by fs5.cdf.toronto.edu with SMTP; 23 Jan 2016 11:44:34 -0500
+Received: (qmail 13369 invoked from network); 23 Jan 2016 11:44:29 -0500
+Received: from cliff.cs.toronto.edu (128.100.3.120)
+  by puffin.cdf.toronto.edu with SMTP; 23 Jan 2016 11:44:29 -0500
+Received: from apps0.cs.toronto.edu ([128.100.3.40] ident=postfix)
+	by cliff.cs.toronto.edu with esmtp (Exim 4.76)
+	(envelope-from <frank@cs.toronto.edu>)
+	id 1aN1Ia-0003EJ-SR; Sat, 23 Jan 2016 11:44:28 -0500
+Received: by apps0.cs.toronto.edu (Postfix, from userid 2066)
+	id C9D3A7A07C0; Sat, 23 Jan 2016 11:44:28 -0500 (EST)
+To: c3zhanhh@cdf.utoronto.ca;c6zhangx@cdf.utoronto.ca
+From: frank@cs.toronto.edu
+Subject: [CSC401/2511] Groups
+Message-Id: <20160123164428.C9D3A7A07C0@apps0.cs.toronto.edu>
+Date: Sat, 23 Jan 2016 11:44:28 -0500 (EST)
+X-UIDL: PDE!!`K1"!l""#!^U+"!
+Status: O
+
+Dear c3zhanhh and c6zhangx,
+
+This is an automatically generated email. Your group information for CSC401/2511 follows.
+
+Group ID = 136		 Use this as directed in the handout to select your data
+IBM BlueMix Promo Code = A85D9904-02B5-1059-89C4-FAE11C2EF440
+
+ONLY ONE GROUP MEMBER CAN USE THE PROMO CODE WITH THEIR ACCOUNT. Determine amongst yourselves whom that should be. Once associated with an IBM account, the promo code will remain (irrevocably) in effect until June 2016.
+
+To use the code, follow the instructions in our tutorial at http://www.cs.toronto.edu/~frank/csc401/tutorials/csc401_A1_tut2.pdf, specifically from Slide 14 onwards.
+
+
+
+
+
+Please let me know of any questions or corrections.
+
+
+
+Most enthusiatic contrafibularities,
+Robot Frank
+
+
+From - Sat Mar 12 19:20:12 2016
+X-Account-Key: account2
+X-UIDL: %QK!!d_Y"!:`L!![\6"!
+X-Mozilla-Status: 0003
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <frank@cs.toronto.edu>
+Delivered-To: c6zhangx@cdf.utoronto.ca
+Received: (qmail 24990 invoked from network); 12 Mar 2016 18:19:01 -0500
+Received: from puffin.cdf.toronto.edu (HELO smtp-gate.cdf.toronto.edu) (128.100.31.105)
+  by fs5.cdf.toronto.edu with SMTP; 12 Mar 2016 18:19:01 -0500
+Received: (qmail 12523 invoked from network); 12 Mar 2016 18:18:59 -0500
+Received: from cliff.cs.toronto.edu (128.100.3.120)
+  by puffin.cdf.toronto.edu with SMTP; 12 Mar 2016 18:18:59 -0500
+Received: from apps0.cs.toronto.edu ([128.100.3.40] ident=postfix)
+	by cliff.cs.toronto.edu with esmtp (Exim 4.76)
+	(envelope-from <frank@cs.toronto.edu>)
+	id 1aesoF-0003PP-F5; Sat, 12 Mar 2016 18:18:59 -0500
+Received: by apps0.cs.toronto.edu (Postfix, from userid 2066)
+	id 6DA757A0471; Sat, 12 Mar 2016 18:18:59 -0500 (EST)
+To: c3zhanhh@cdf.utoronto.ca; c6zhangx@cdf.utoronto.ca
+From: frank@cs.toronto.edu
+Subject: [CSC401/2511] ASSIGNMENT 1 MARKS!!!!
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="_===_===__===___===_____===________"
+Message-Id: <20160312231859.6DA757A0471@apps0.cs.toronto.edu>
+Date: Sat, 12 Mar 2016 18:18:59 -0500 (EST)
+X-UIDL: %QK!!d_Y"!:`L!![\6"!
+
+--_===_===__===___===_____===________
+Content-Type: text/plain; charset=us-ascii
+
+Dear c3zhanhh and c6zhangx,
+
+This is an automatically generated email. Your rubric for assignment 1 is attached.
+
+Your mark is 0/85.
+
+
+
+
+
+Please let me know of any questions.
+
+
+
+By your command,
+Robot Frank
+
+--_===_===__===___===_____===________
+Content-Type: application/text; name=c3zhanhh_c6zhangx.csv 
+Content-Disposition: attachment; filename=c3zhanhh_c6zhangx.csv 
+Content-Transfer-Encoding: base64
+
+
+
+,Preprocessing,Submitted .twt,test.twt exists,,1
+,,,test.twt reproducable,,2
+,,Functionality,HTML characters replaced,,1
+,,,HTML tags deleted,,2
+,,,URLs deleted,,3
+,,,Basic tokenization,,2
+,,,Ellipsis/Dash handing,,2
+,,,Contractions,,2
+,,,Sentence breaks,,3
+,,,Delimitation,,1
+,,,Empty tweets,,1
+,,,Tagging,,3
+,,,Bonus,,0
+,,Code,"Clear, well-documented",,2
+,,,,0,25
+,Feature Extraction,Submitted .arff,test.arff exists,,1
+,,,test.arff reproducable,,2
+,,Functionality,Counts words,,2
+,,,Counts tags,,2
+,,,Counts future,,1
+,,,Counts slang,,1
+,,,Counts upper,,1
+,,,Counts sentence length,,1
+,,,Counts token length,,1
+,,,Optional class names,,1
+,,,Arff loads into WEKA,,3
+,,,Bonus,,0
+,,Code,Modularity,,3
+,,,Efficiency,,1
+,,,,0,20
+,Classification,Submitted files,3.1output.txt,,1
+,,,3.2output.txt,,1
+,,,3.3output.txt,,1
+,,,3.4output.txt,,1
+,,Discussion,3.1 accuracy,,2
+,,,3.1 correct choice,,2
+,,,3.2 comparison,,2
+,,,3.2 accuracy,,2
+,,,3.2 discuss shape of accuracy/N curve,,2
+,,,3.3 comparison,,2
+,,,3.3 features shown,,2
+,,,3.3 explanation,,2
+,,,3.4 implementation,,2
+,,,3.4 recall,,2
+,,,3.4 precision,,2
+,,,3.4 stats,,2
+,,,Command lines,,1
+,,,Clarity,,1
+,,,Bonus,,0
+,,,,0,30
+,IBM,Runs,,,5
+,,Analysis,,,5
+,,,,0,10
+
+--_===_===__===___===_____===________--
+
+
+From - Sat Mar 12 21:54:42 2016
+X-Account-Key: account2
+X-UIDL: <IS"!bb<"!!FJ!!&0M!!
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <t5grante@cdf.toronto.edu>
+Delivered-To: c6zhangx@cdf.toronto.edu
+Received: (qmail 43384 invoked from network); 21 Jan 2016 12:53:21 -0500
+Received: from cdf.toronto.edu (HELO wolf.cdf.toronto.edu) (128.100.31.200)
+  by fs5.cdf.toronto.edu with SMTP; 21 Jan 2016 12:53:21 -0500
+Received: (qmail 12740 invoked by uid 1475); 21 Jan 2016 12:53:21 -0500
+Date: 21 Jan 2016 12:53:21 -0500
+Message-ID: <20160121175321.GA12729@cdf.toronto.edu>
+From: "Grant Erin" <t5grante@cdf.toronto.edu>
+To: c6zhangx@cdf.toronto.edu
+Subject: CSC CSC401/2511: Please change your partner file permissions
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.5.21 (2010-09-15)
+X-UIDL: <IS"!bb<"!!FJ!!&0M!!
+Status: O
+
+Hi c6zhangx, 
+
+The TAs cannot access your .csc401partner file to determine your group member.
+
+Please run the following two commands (on CDF) BY 6PM TONIGHT (Jan. 21):
+
+	chmod 711 ~/
+	chmod 644 ~/.csc401partner
+
+Thanks!
+
+Erin
+
+
+From - Sat Mar 12 21:54:42 2016
+X-Account-Key: account2
+X-UIDL: hXV"!4i_"!g9[!!F-4!!
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <frank@cs.toronto.edu>
+Delivered-To: c6zhangx@cdf.utoronto.ca
+Received: (qmail 58898 invoked from network); 23 Jan 2016 11:44:34 -0500
+Received: from puffin.cdf.toronto.edu (HELO smtp-gate.cdf.toronto.edu) (128.100.31.105)
+  by fs5.cdf.toronto.edu with SMTP; 23 Jan 2016 11:44:34 -0500
+Received: (qmail 13369 invoked from network); 23 Jan 2016 11:44:29 -0500
+Received: from cliff.cs.toronto.edu (128.100.3.120)
+  by puffin.cdf.toronto.edu with SMTP; 23 Jan 2016 11:44:29 -0500
+Received: from apps0.cs.toronto.edu ([128.100.3.40] ident=postfix)
+	by cliff.cs.toronto.edu with esmtp (Exim 4.76)
+	(envelope-from <frank@cs.toronto.edu>)
+	id 1aN1Ia-0003EJ-SR; Sat, 23 Jan 2016 11:44:28 -0500
+Received: by apps0.cs.toronto.edu (Postfix, from userid 2066)
+	id C9D3A7A07C0; Sat, 23 Jan 2016 11:44:28 -0500 (EST)
+To: c3zhanhh@cdf.utoronto.ca;c6zhangx@cdf.utoronto.ca
+From: frank@cs.toronto.edu
+Subject: [CSC401/2511] Groups
+Message-Id: <20160123164428.C9D3A7A07C0@apps0.cs.toronto.edu>
+Date: Sat, 23 Jan 2016 11:44:28 -0500 (EST)
+X-UIDL: hXV"!4i_"!g9[!!F-4!!
+Status: O
+
+Dear c3zhanhh and c6zhangx,
+
+This is an automatically generated email. Your group information for CSC401/2511 follows.
+
+Group ID = 136		 Use this as directed in the handout to select your data
+IBM BlueMix Promo Code = A85D9904-02B5-1059-89C4-FAE11C2EF440
+
+ONLY ONE GROUP MEMBER CAN USE THE PROMO CODE WITH THEIR ACCOUNT. Determine amongst yourselves whom that should be. Once associated with an IBM account, the promo code will remain (irrevocably) in effect until June 2016.
+
+To use the code, follow the instructions in our tutorial at http://www.cs.toronto.edu/~frank/csc401/tutorials/csc401_A1_tut2.pdf, specifically from Slide 14 onwards.
+
+
+
+
+
+Please let me know of any questions or corrections.
+
+
+
+Most enthusiatic contrafibularities,
+Robot Frank
+
+
+From - Sat Mar 12 21:54:42 2016
+X-Account-Key: account2
+X-UIDL: VkI!!gBo!!UV[!!W!S"!
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <frank@cs.toronto.edu>
+Delivered-To: c6zhangx@cdf.utoronto.ca
+Received: (qmail 24990 invoked from network); 12 Mar 2016 18:19:01 -0500
+Received: from puffin.cdf.toronto.edu (HELO smtp-gate.cdf.toronto.edu) (128.100.31.105)
+  by fs5.cdf.toronto.edu with SMTP; 12 Mar 2016 18:19:01 -0500
+Received: (qmail 12523 invoked from network); 12 Mar 2016 18:18:59 -0500
+Received: from cliff.cs.toronto.edu (128.100.3.120)
+  by puffin.cdf.toronto.edu with SMTP; 12 Mar 2016 18:18:59 -0500
+Received: from apps0.cs.toronto.edu ([128.100.3.40] ident=postfix)
+	by cliff.cs.toronto.edu with esmtp (Exim 4.76)
+	(envelope-from <frank@cs.toronto.edu>)
+	id 1aesoF-0003PP-F5; Sat, 12 Mar 2016 18:18:59 -0500
+Received: by apps0.cs.toronto.edu (Postfix, from userid 2066)
+	id 6DA757A0471; Sat, 12 Mar 2016 18:18:59 -0500 (EST)
+To: c3zhanhh@cdf.utoronto.ca; c6zhangx@cdf.utoronto.ca
+From: frank@cs.toronto.edu
+Subject: [CSC401/2511] ASSIGNMENT 1 MARKS!!!!
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="_===_===__===___===_____===________"
+Message-Id: <20160312231859.6DA757A0471@apps0.cs.toronto.edu>
+Date: Sat, 12 Mar 2016 18:18:59 -0500 (EST)
+X-UIDL: VkI!!gBo!!UV[!!W!S"!
+Status: RO
+
+--_===_===__===___===_____===________
+Content-Type: text/plain; charset=us-ascii
+
+Dear c3zhanhh and c6zhangx,
+
+This is an automatically generated email. Your rubric for assignment 1 is attached.
+
+Your mark is 0/85.
+
+
+
+
+
+Please let me know of any questions.
+
+
+
+By your command,
+Robot Frank
+
+--_===_===__===___===_____===________
+Content-Type: application/text; name=c3zhanhh_c6zhangx.csv 
+Content-Disposition: attachment; filename=c3zhanhh_c6zhangx.csv 
+Content-Transfer-Encoding: base64
+
+
+
+,Preprocessing,Submitted .twt,test.twt exists,,1
+,,,test.twt reproducable,,2
+,,Functionality,HTML characters replaced,,1
+,,,HTML tags deleted,,2
+,,,URLs deleted,,3
+,,,Basic tokenization,,2
+,,,Ellipsis/Dash handing,,2
+,,,Contractions,,2
+,,,Sentence breaks,,3
+,,,Delimitation,,1
+,,,Empty tweets,,1
+,,,Tagging,,3
+,,,Bonus,,0
+,,Code,"Clear, well-documented",,2
+,,,,0,25
+,Feature Extraction,Submitted .arff,test.arff exists,,1
+,,,test.arff reproducable,,2
+,,Functionality,Counts words,,2
+,,,Counts tags,,2
+,,,Counts future,,1
+,,,Counts slang,,1
+,,,Counts upper,,1
+,,,Counts sentence length,,1
+,,,Counts token length,,1
+,,,Optional class names,,1
+,,,Arff loads into WEKA,,3
+,,,Bonus,,0
+,,Code,Modularity,,3
+,,,Efficiency,,1
+,,,,0,20
+,Classification,Submitted files,3.1output.txt,,1
+,,,3.2output.txt,,1
+,,,3.3output.txt,,1
+,,,3.4output.txt,,1
+,,Discussion,3.1 accuracy,,2
+,,,3.1 correct choice,,2
+,,,3.2 comparison,,2
+,,,3.2 accuracy,,2
+,,,3.2 discuss shape of accuracy/N curve,,2
+,,,3.3 comparison,,2
+,,,3.3 features shown,,2
+,,,3.3 explanation,,2
+,,,3.4 implementation,,2
+,,,3.4 recall,,2
+,,,3.4 precision,,2
+,,,3.4 stats,,2
+,,,Command lines,,1
+,,,Clarity,,1
+,,,Bonus,,0
+,,,,0,30
+,IBM,Runs,,,5
+,,Analysis,,,5
+,,,,0,10
+
+--_===_===__===___===_____===________--
+
+
+From - Sat Mar 12 21:54:43 2016
+X-Account-Key: account2
+X-UIDL: `Uk!!-:,"!fh<!!6D0"!
+X-Mozilla-Status: 0011
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <frank@spoclab.com>
+Delivered-To: c6zhangx@cdf.toronto.edu
+Received: (qmail 46249 invoked from network); 12 Mar 2016 21:12:03 -0500
+Received: from puffin.cdf.toronto.edu (HELO smtp-gate.cdf.toronto.edu) (128.100.31.105)
+  by fs5.cdf.toronto.edu with SMTP; 12 Mar 2016 21:12:03 -0500
+Received: (qmail 31431 invoked from network); 12 Mar 2016 21:12:03 -0500
+Received: from mail-by2on0114.outbound.protection.outlook.com (HELO na01-by2-obe.outbound.protection.outlook.com) (207.46.100.114)
+  by puffin.cdf.toronto.edu with SMTP; 12 Mar 2016 21:12:02 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=SPOClab.onmicrosoft.com; s=selector1-spoclab-com;
+ h=From:To:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=Pd69QsRiAtBGejDaTs+TpKiaQ9ga2PQd8ckuxDBU/W4=;
+ b=XtSDOqdbzzmHFHQRTaZ0zz6RoofUcqX0plRDV5A3h/g3OVbH7JlzRrrEFPYq0Ar9adwy9W92BvKwrCJYhzmDUnDM/dl/hwEN1CKBbcEo+u+DMlah8ozQ6FcWgIYhv67mi2qZjeOjzNxu7UrSZlwa1777RiPyU1c/TkIIfh3KiM8=
+Received: from SN1PR10MB0704.namprd10.prod.outlook.com (10.163.206.142) by
+ SN1PR10MB0702.namprd10.prod.outlook.com (10.163.206.140) with Microsoft SMTP
+ Server (TLS) id 15.1.434.16; Sun, 13 Mar 2016 02:11:40 +0000
+Received: from SN1PR10MB0704.namprd10.prod.outlook.com ([10.163.206.142]) by
+ SN1PR10MB0704.namprd10.prod.outlook.com ([10.163.206.142]) with mapi id
+ 15.01.0434.016; Sun, 13 Mar 2016 02:11:40 +0000
+From: Frank Rudzicz <frank@spoclab.com>
+To: Zhang Xian <c6zhangx@cdf.toronto.edu>
+CC: "eringrant@cs.toronto.edu" <eringrant@cs.toronto.edu>,
+	"sraimond@cs.toronto.edu" <sraimond@cs.toronto.edu>,
+	"louis.tan@mail.utoronto.ca" <louis.tan@mail.utoronto.ca>
+Subject: Re: [CSC401/2511] ASSIGNMENT 1 MARKS!!!!
+Thread-Topic: [CSC401/2511] ASSIGNMENT 1 MARKS!!!!
+Thread-Index: AQHRfL52VREr71Ack0ef8frRXRL2rZ9Wod2A
+Date: Sun, 13 Mar 2016 02:11:40 +0000
+Message-ID: <85FB8253-7AF2-44D4-B30A-9928C85D3AB5@SPOClab.onmicrosoft.com>
+References: <20160312231859.6DA757A0471@apps0.cs.toronto.edu>
+ <56E4B2D4.4060900@cdf.toronto.edu>
+In-Reply-To: <56E4B2D4.4060900@cdf.toronto.edu>
+Accept-Language: en-CA, en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+authentication-results: cdf.toronto.edu; dkim=none (message not signed)
+ header.d=none;cdf.toronto.edu; dmarc=none action=none
+ header.from=spoclab.com;
+x-ms-exchange-messagesentrepresentingtype: 1
+x-originating-ip: [99.232.65.21]
+x-ms-office365-filtering-correlation-id: ca0b77cd-5f0c-4266-b0d7-08d34ae4d0ed
+x-microsoft-exchange-diagnostics: 1;SN1PR10MB0702;5:XgRh4WiLGX5ox/GQIjEFhg4xSaGg7gWHwxxlCJP6akNDgOoOyPsObT+7CeoQhaxQUknTwjtaJNcceNVZy8jHjlkRQFawzSWOnceuNS01/SVE5x+maxMVp3tqBfZfQdL82gRnKda+xgiEMMpo+pcjmA==;24:xLxaqxLwuFKhr+wZHAK/ueVOkmpTPmum/VKztrCwGKvh6jpTmTAxqhiV52v9ONBu/hv7VjuJvG3xdJwBq2HAC8OJhx7YyNyLjV5Dx1goaoU=
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:SN1PR10MB0702;
+x-microsoft-antispam-prvs: <SN1PR10MB07029BA496693C5DAB47FADEA5B70@SN1PR10MB0702.namprd10.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(102415293)(102615271)(601004)(2401047)(5005006)(8121501046)(3002001)(10201501046);SRVR:SN1PR10MB0702;BCL:0;PCL:0;RULEID:;SRVR:SN1PR10MB0702;
+x-forefront-prvs: 0880FB6EC1
+x-forefront-antispam-report: SFV:NSPM;SFS:(10019020)(377454003)(24454002)(479174004)(189998001)(18206015028)(86362001)(77096005)(83716003)(223973002)(5004730100002)(3280700002)(3660700001)(19627595001)(19617315012)(110136002)(1096002)(2906002)(1220700001)(66066001)(16236675004)(87936001)(4326007)(2171001)(33656002)(99286002)(106116001)(76176999)(102836003)(17760045003)(81166005)(5002640100001)(226693001)(82746002)(5008740100001)(586003)(92566002)(19580405001)(19580395003)(50986999)(54356999)(122556002)(2950100001)(6116002)(11100500001)(10400500002)(3846002)(99936001)(5890100001)(15975445007)(2900100001)(7099028)(225543005)(104396002);DIR:OUT;SFP:1102;SCL:1;SRVR:SN1PR10MB0702;H:SN1PR10MB0704.namprd10.prod.outlook.com;FPR:;SPF:None;MLV:sfv;LANG:en;
+spamdiagnosticoutput: 1:23
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/related;
+	boundary="_004_85FB82537AF244D4B30A9928C85D3AB5SPOClabonmicrosoftcom_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-OriginatorOrg: spoclab.com
+X-MS-Exchange-CrossTenant-originalarrivaltime: 13 Mar 2016 02:11:40.6046
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 677a4932-61f3-46d3-a619-ff664a344920
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN1PR10MB0702
+X-CDF-Spam-Status-Bogofilter: Ham, spamicity=0.285924, Bogofilter 1.2.2
+X-UIDL: `Uk!!-:,"!fh<!!6D0"!
+
+--_004_85FB82537AF244D4B30A9928C85D3AB5SPOClabonmicrosoftcom_
+Content-Type: multipart/alternative;
+	boundary="_000_85FB82537AF244D4B30A9928C85D3AB5SPOClabonmicrosoftcom_"
+
+--_000_85FB82537AF244D4B30A9928C85D3AB5SPOClabonmicrosoftcom_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+You do not appear in either my 401 or 2511 class lists. The fact that I hav=
+e a rubric for you appears to be an error. I=92ve CC=92d the TAs to let the=
+m know.
+
+Frank
+
+
+Frank Rudzicz, PhD
+  Scientist, Toronto Rehabilitation Institute;
+  Assistant professor (status only), Department of Computer Science,
+        University of Toronto;
+  Founder and Chief Science Officer, WinterLight Labs Incorporated
+  Director, SPOClab (signal processing and oral communications)
+
+[cid:image003.png@01D1543C.1E079780]
+|| Website: http://www.cs.toronto.edu/~frank
+|| Twitter: @SPOClab<https://twitter.com/SPOClab>
+|| Phone (office) : 416 597 3422 x7971
+|| Fax : 416 597 3031
+
+
+
+On Mar 12, 2016, at 7:22 PM, Zhang Xian <c6zhangx@cdf.toronto.edu<mailto:c6=
+zhangx@cdf.toronto.edu>> wrote:
+
+account : c6zhangx
+Is there any mistake?
+I think I have dropped the course.
+thanks,
+c6zhangx
+
+On 03/12/16 18:18, frank@cs.toronto.edu<mailto:frank@cs.toronto.edu> wrote:
+Dear c3zhanhh and c6zhangx,
+
+This is an automatically generated email. Your rubric for assignment 1 is a=
+ttached.
+
+Your mark is 0/85.
+
+
+
+
+
+Please let me know of any questions.
+
+
+
+By your command,
+Robot Frank
+
+
+
+--_000_85FB82537AF244D4B30A9928C85D3AB5SPOClabonmicrosoftcom_
+Content-Type: text/html; charset="Windows-1252"
+Content-ID: <5E27FCA2B3128349A4669E475C0DC40F@namprd10.prod.outlook.com>
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+</head>
+<body style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-lin=
+e-break: after-white-space;" class=3D"">
+<div class=3D"">You do not appear in either my 401 or 2511 class lists. The=
+ fact that I have a rubric for you appears to be an error. I=92ve CC=92d th=
+e TAs to let them know.</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">Frank</div>
+<div class=3D""><br class=3D"">
+</div>
+<br class=3D"">
+<div class=3D"">
+<div style=3D"color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px;=
+ font-style: normal; font-variant: normal; font-weight: normal; letter-spac=
+ing: normal; orphans: auto; text-align: start; text-indent: 0px; text-trans=
+form: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-t=
+ext-stroke-width: 0px; word-wrap: break-word; -webkit-nbsp-mode: space; -we=
+bkit-line-break: after-white-space;" class=3D"">
+Frank Rudzicz, PhD<br class=3D"">
+&nbsp;&nbsp;Scientist, Toronto Rehabilitation Institute;<br class=3D"">
+&nbsp;&nbsp;Assistant professor (status only), Department of Computer Scien=
+ce,<br class=3D"">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University of Toronto;<br c=
+lass=3D"">
+&nbsp;&nbsp;Founder and Chief Science Officer, WinterLight Labs Incorporate=
+d<br class=3D"">
+&nbsp;&nbsp;Director, SPOClab (signal processing and oral communications)<b=
+r class=3D"">
+</div>
+<span style=3D"color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px=
+; font-style: normal; font-variant: normal; font-weight: normal; letter-spa=
+cing: normal; orphans: auto; text-align: start; text-indent: 0px; text-tran=
+sform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-=
+text-stroke-width: 0px;"><br class=3D"Apple-interchange-newline">
+<span><img height=3D"25" width=3D"58" apple-inline=3D"yes" id=3D"BC5F3919-C=
+953-44D8-B9A6-BCAECF89BF9B" apple-width=3D"yes" apple-height=3D"yes" src=3D=
+"cid:image003.png@01D1543C.1E079780" class=3D""></span><br style=3D"color: =
+rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; =
+font-variant: normal; font-weight: normal; letter-spacing: normal; orphans:=
+ auto; text-align: start; text-indent: 0px; text-transform: none; white-spa=
+ce: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px=
+;" class=3D"">
+<span style=3D"color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px=
+; font-style: normal; font-variant: normal; font-weight: normal; letter-spa=
+cing: normal; orphans: auto; text-align: start; text-indent: 0px; text-tran=
+sform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-=
+text-stroke-width: 0px; float: none; display: inline !important;" class=3D"=
+">||
+ Website:&nbsp;</span><a href=3D"http://www.cs.toronto.edu/~frank" style=3D=
+"font-family: Helvetica; font-size: 12px; font-style: normal; font-variant:=
+ normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-a=
+lign: start; text-indent: 0px; text-transform: none; white-space: normal; w=
+idows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;" class=3D""=
+>http://www.cs.toronto.edu/~frank</a><br style=3D"color: rgb(0, 0, 0); font=
+-family: Helvetica; font-size: 12px; font-style: normal; font-variant: norm=
+al; font-weight: normal; letter-spacing: normal; orphans: auto; text-align:=
+ start; text-indent: 0px; text-transform: none; white-space: normal; widows=
+: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;" class=3D"">
+<span style=3D"color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px=
+; font-style: normal; font-variant: normal; font-weight: normal; letter-spa=
+cing: normal; orphans: auto; text-align: start; text-indent: 0px; text-tran=
+sform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-=
+text-stroke-width: 0px; float: none; display: inline !important;" class=3D"=
+">||
+ Twitter:&nbsp;</span><a href=3D"https://twitter.com/SPOClab" style=3D"font=
+-family: Helvetica; font-size: 12px; font-style: normal; font-variant: norm=
+al; font-weight: normal; letter-spacing: normal; orphans: auto; text-align:=
+ start; text-indent: 0px; text-transform: none; white-space: normal; widows=
+: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;" class=3D"">@SPO=
+Clab</a><br style=3D"color: rgb(0, 0, 0); font-family: Helvetica; font-size=
+: 12px; font-style: normal; font-variant: normal; font-weight: normal; lett=
+er-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; tex=
+t-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -w=
+ebkit-text-stroke-width: 0px;" class=3D"">
+<span style=3D"color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px=
+; font-style: normal; font-variant: normal; font-weight: normal; letter-spa=
+cing: normal; orphans: auto; text-align: start; text-indent: 0px; text-tran=
+sform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-=
+text-stroke-width: 0px; float: none; display: inline !important;" class=3D"=
+">||
+ Phone (office) : 416 597 3422 x7971</span><br style=3D"color: rgb(0, 0, 0)=
+; font-family: Helvetica; font-size: 12px; font-style: normal; font-variant=
+: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-=
+align: start; text-indent: 0px; text-transform: none; white-space: normal; =
+widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;" class=3D"=
+">
+<span style=3D"color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px=
+; font-style: normal; font-variant: normal; font-weight: normal; letter-spa=
+cing: normal; orphans: auto; text-align: start; text-indent: 0px; text-tran=
+sform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-=
+text-stroke-width: 0px; float: none; display: inline !important;" class=3D"=
+">||
+ Fax : 416 597 3031</span><br style=3D"color: rgb(0, 0, 0); font-family: He=
+lvetica; font-size: 12px; font-style: normal; font-variant: normal; font-we=
+ight: normal; letter-spacing: normal; orphans: auto; text-align: start; tex=
+t-indent: 0px; text-transform: none; white-space: normal; widows: auto; wor=
+d-spacing: 0px; -webkit-text-stroke-width: 0px;" class=3D"">
+<br style=3D"color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; =
+font-style: normal; font-variant: normal; font-weight: normal; letter-spaci=
+ng: normal; orphans: auto; text-align: start; text-indent: 0px; text-transf=
+orm: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-te=
+xt-stroke-width: 0px;" class=3D"">
+<br style=3D"color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; =
+font-style: normal; font-variant: normal; font-weight: normal; letter-spaci=
+ng: normal; orphans: auto; text-align: start; text-indent: 0px; text-transf=
+orm: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-te=
+xt-stroke-width: 0px;" class=3D"">
+</span></div>
+<br class=3D"">
+<div>
+<blockquote type=3D"cite" class=3D"">
+<div class=3D"">On Mar 12, 2016, at 7:22 PM, Zhang Xian &lt;<a href=3D"mail=
+to:c6zhangx@cdf.toronto.edu" class=3D"">c6zhangx@cdf.toronto.edu</a>&gt; wr=
+ote:</div>
+<br class=3D"Apple-interchange-newline">
+<div class=3D"">
+<div class=3D"">account : c6zhangx<br class=3D"">
+Is there any mistake?<br class=3D"">
+I think I have dropped the course.<br class=3D"">
+thanks,<br class=3D"">
+c6zhangx<br class=3D"">
+<br class=3D"">
+On 03/12/16 18:18, <a href=3D"mailto:frank@cs.toronto.edu" class=3D"">frank=
+@cs.toronto.edu</a> wrote:<br class=3D"">
+<blockquote type=3D"cite" class=3D"">Dear c3zhanhh and c6zhangx,<br class=
+=3D"">
+<br class=3D"">
+This is an automatically generated email. Your rubric for assignment 1 is a=
+ttached.<br class=3D"">
+<br class=3D"">
+Your mark is 0/85.<br class=3D"">
+<br class=3D"">
+<br class=3D"">
+<br class=3D"">
+<br class=3D"">
+<br class=3D"">
+Please let me know of any questions.<br class=3D"">
+<br class=3D"">
+<br class=3D"">
+<br class=3D"">
+By your command,<br class=3D"">
+Robot Frank<br class=3D"">
+<br class=3D"">
+</blockquote>
+</div>
+</div>
+</blockquote>
+</div>
+<br class=3D"">
+</body>
+</html>
+
+--_000_85FB82537AF244D4B30A9928C85D3AB5SPOClabonmicrosoftcom_--
+
+--_004_85FB82537AF244D4B30A9928C85D3AB5SPOClabonmicrosoftcom_
+Content-Type: image/png; name="image003.png"
+Content-Description: image003.png
+Content-Disposition: inline; filename="image003.png"; size=2680;
+	creation-date="Sun, 13 Mar 2016 02:11:40 GMT";
+	modification-date="Sun, 13 Mar 2016 02:11:40 GMT"
+Content-ID: <image003.png@01D1543C.1E079780>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAADoAAAAZCAYAAABggz2wAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAO
+xAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUATWljcm9zb2Z0IE9mZmljZX/tNXEAAAn4SURBVFhH
+zVh7dFTFGf9m7tzdvfsgWUIgEKImhhBiYnKKARIaTSKCgCygRsTYxlp8nB6rf1haRUua9JTjOfbY
+49H+UVu0aaVisVqjiERTUOgiiUnD5gWBRkw1gZCwee9m79yZfndjcigGkoByOsk9c+/MNzPf73vP
+spKSEvg2WuSOHerS9bkO0NyaBgHFBiBaA/6Qv7Vp8K5dNUE8V34b515oT3a5hxUXF5P992+Mnx3t
+ShMOR5ridCzQIiPioPSx2YrV5iaK4gAhVaGHZNJgICSuSuo7fsOy7lBPZ3uwt/+4MRjwhbr7G9s7
+eEOzJ6fncvn5xoHeeGBfujV62q3rHr5nGTjtmY7o6IgZcbFgnTULpHMa6pCBsNj6VVXtEMLoE0OD
+w3pfHx3uOWsf7uqKEJJcrRF5i8IoBKWAOBo4M3v/x7UkyHfrvcHKjzesavomQU9JowuKi2nM4pw1
+4LLez5z2ZTMjI+zOmW4IOB3AIyI+G3BFfDpgsftcUVH19hkxXwJzd4HNZmppEB++C4CkQ4vKPjxi
+Y4ZwBIO6O6iEojmjcVJVrlcZSxNUPKpq6ubcXXtOSC7f1il/y7vB03a5oCcNdMmu91eyG5Y+Qa3s
+xukuDWSkBv2MngwQeMfu1Mq1mJia31af8E/AkGwGGEYa8+kFMq0dIqcBRMaNLbOWHXAsmS3mG8PG
+UiuFJbpO1y159Z16SuQbvCXaW1WSxS8F9IRAv1NWPmeaTS0VDO63WyyEaRboo6KJSfli0B7xt0oS
+1QmdGFc6P7uU87+2ZrgoZ/AjgFqcMJ8XsssqZgIN5uqSrFASuxct2lF+kHF/nbeoKDiVAy8KdElZ
+eZ7KlJcslCbqCoEQEVKXxq8D1HjGG7/o7FQOulRab9HyTlz7V/PJLiu/SgiWyJk7Pbu8/JjX45l0
+8Log0CU73r/LqrLthIAzIA3QQDltD4Ue+Pvy/HculenLXectCvtq2907dlh2egpDU9nva0C3bt1K
+Dz/0wKY+Y/AFqWiWEIJ0EtrnjdRe3jM3JiGysf4ZIklVamrqm+ZB2a+Xp9mFuolLiYGUhHOjIgkV
+RARCvf3PvpCbttHKRSPS7zfnDhw44LK5bCmZGZmHRxn1Nfge6wVa98wnrf1Bp/qAYYgxP0RBK1yC
+P6+lauvKgoIMBxWZxenpv1/f5HsUqKjMSM5onAzg8TS6MunO239XtacCQjabVKUkFXMj7Z/MisyN
+0nmNpBSzgXyqoaHhPjzgvps4EIUSKyLEYRgBSk3IREAwGGJCZgCBdTgcBup2uzOEECWHDh1anpWV
+xevq6q5VmPJLYHCbxsHA7QxBKe4jwvxTUIQCRnhfjbGFKsjvLzxxvExNvPYhJG7H4akDjSkrtvEn
+n9zivmUlWObFS3GsE5ri54I3xv2pRRd3paRe94V5YHl5uSv+2vgnDd2I+qjQ48Ohhy8kVaWh4RUE
+urO6oXpuZmrmFwJEDgLLY4wl4Zom7NegfI65OfzzjYc9Bo49Mt5e+2E1sKYGIQgZQGFJXNNPgeqT
+0aZJ8z8aXbZt54OM8+xgIAixa2+Hlm3PEV+0a3hQoY8vnZ8SBmk2j8fTj90W830rVka7oICOd2Bz
+SarR399f5XA5zliZdQXSbEdFfReZHFKt6jITKL6vIUDeRNM2FhQ3KAnuVsv5e/kRmLcoZ0pR9vw9
+xoBai4tnRPrqf3Lqgz1wqrZWJj/0CDT/+Y/QI412PzBMfyMNTS3dZrPdyDkfPsNYw01Ji5Xp8PmL
+hhQjtoaNEvyXpCe7rHUjFHna6+vrdwOHW9HcD6ItmkIpZgq7ubq6+i1N0+agQ5pRFaKSWtcMEVaq
+gxjTlIKeoUDfKRTo6rWFG0K2ESuechsDmvujR+6ePj85ruYv26Hv6FGwREdDTG4eQFXNNLjqaifu
+PFIMMJijG3oOaiJlusE7nLz/3m5wbAM2EojMhoxT9NYQA3+v+U0IKh3gD7huM6OsIaAFtluCljts
+dttm1KYv47rr/m3SDfHApxbq2oJaHwtGnBoKfg+VlpQY6tGmCfP+hSQQXoiFOd304d4CsDBIffpX
+aP/IKVMgcbUHrjnkjTrV3fUgREX93KTNSM3Yg92e+sb61zD8dO0u2nAav1+/mIjRLOt9Pl83+uMP
+0a/zMhMz/Ud8R44rFuXHgouC0bW1RRtM9xhzkfP3ZIJjQFemrM0R/WDbX/xUctTi7MUdr70K7bv3
+Eqqq4JifCEmbn4AVsTOhq7vr6YNHDZeVh/6kcpBYqG9CLaWhea7CJB6JABKBcTmqBmZuixE0CP7m
+qsJCs9wz2/tSyhT02U/CWmakwuDGih5/z75RzjFVzWacpoQwb9Bw5EWBC3xlEMQi38vxRZFy1IfN
+ftzYMJ4kwkCX/nRLFh4NLc//pnmwpZ0oFitA5V5jbtEPYlI3fs+y6vGfnTqcklrQ4bBl6zYaNDg/
+bUhjLWq3TT3Slqcx5TlDEEP96gQsoqhBYHBAd92DQ/8xh4fp8IdWYQ3l5IwEFQu1HAzy4Db87h5l
+jHG2SFPoVkVITiBsWKAoVDEMeQZ91LO2cKOfcdGBgjXnvsQ0NTRZ9YaBMrt9H+/oWNx5uPYzWFhA
+3eAGf81LYrCtdfb0dXda89cXtN3RGiBP3LbQWqNpek5q2hhzAXB7df+ZVUGs80cPDdiAaBhRAq0J
+XaNjmFrMa9fY1Ss5Ofkkfj9/LqNzWvzvHUlw7XdjTh4Z9+Ofm7j9fgN9lA99eeBd0W6rxPw7jIVH
+EQI2b0WTamGgpaWlrWHqc39t8JRA897KPthbOTZuR5Kc87atKswyTbNjUqdNQLSzpNCMtuEANl7L
+iUVriIWwRaAlTKnWvuQoNhVgFdUV0WyAZebn5b+HmojXuR6DbhwknGSil/VhSdWEfVT+Tfn7sM3H
+vbEikCp60zx0qeN4T23BNSswQpveUYcRnxJK0rHvVan6AYLumYifKwJUHVDnSCp/UVFRcchqtd6B
+TMZi9G2lCh0ggpxEkLMwhZSgEPLx/V4EaRrPWayijiCiZZizE3DNPAT2DzDgLArgXmnIGuyv0UFf
+j7Sv/F8ARcYF1gl1VKU3YwCxIZhGBOBADcWGHdHAmpVBPQLKxTksd+EoRvU5KqjxCFZBj8U7g3Th
+WAKCPYmgdeyvp5LORWt4ayKQ5vwV0Sgy6DTNkxGWI4lsw3fzihWB/XEE8TkoEIN9Lc6tRw2bVRjG
+bSD4s8q/8OeULBRIPM6fRvpGTG0GF5wi3dtoJQtwTQLSYyC5eLsiQHVd/xwZ9KNWpiOos2imZrk4
+AwFcj4wuQA0dQx9sxvx7FGnO4JxZtMehblOQ1Cd0/EVDZbegwFKQjuD8u5pNO8EZP60P6CbQCdsV
+Abp8+XLzOmU+57YW/PCeN3bynO+x+vqrsZfHQWNG/LEUdjG0/wVpQFJFk7bGxQAAAABJRU5ErkJg
+gg==
+
+--_004_85FB82537AF244D4B30A9928C85D3AB5SPOClabonmicrosoftcom_--
+
+
+From - Sun Mar 13 12:06:35 2016
+X-Account-Key: account2
+X-UIDL: J~K"!OO9!!^HM"!p0)#!
+X-Mozilla-Status: 0011
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <eringrant@cs.toronto.edu>
+Delivered-To: c6zhangx@cdf.toronto.edu
+Received: (qmail 31213 invoked from network); 13 Mar 2016 01:09:02 -0500
+Received: from puffin.cdf.toronto.edu (HELO smtp-gate.cdf.toronto.edu) (128.100.31.105)
+  by fs5.cdf.toronto.edu with SMTP; 13 Mar 2016 01:09:02 -0500
+Received: (qmail 24678 invoked from network); 13 Mar 2016 01:09:02 -0500
+Received: from aviary.cs.toronto.edu (128.100.3.90)
+  by puffin.cdf.toronto.edu with SMTP; 13 Mar 2016 01:09:02 -0500
+Received: from mail-io0-f171.google.com ([209.85.223.171])
+	by aviary.cs.toronto.edu with esmtpsa (TLS1.2:RSA_ARCFOUR_SHA1:128)
+	(Exim 4.82)
+	(envelope-from <eringrant@cs.toronto.edu>)
+	id 1aezD4-0007As-Kg
+	for c6zhangx@cdf.toronto.edu; Sun, 13 Mar 2016 01:09:02 -0500
+Received: by mail-io0-f171.google.com with SMTP id n190so190043384iof.0
+        for <c6zhangx@cdf.toronto.edu>; Sat, 12 Mar 2016 22:09:02 -0800 (PST)
+X-Gm-Message-State: AD7BkJKm4jN3QCWqMpMqBZ/EvcocUpJ5aDezafy5S9l0xo/Dwo7BaMY0fl/xMXIA2IoUxpRAuM/sD7JBj6NNsQ==
+X-Received: by 10.107.3.16 with SMTP id 16mr18299791iod.155.1457849342377;
+ Sat, 12 Mar 2016 22:09:02 -0800 (PST)
+MIME-Version: 1.0
+References: <20160312231859.6DA757A0471@apps0.cs.toronto.edu>
+ <56E4B2D4.4060900@cdf.toronto.edu> <85FB8253-7AF2-44D4-B30A-9928C85D3AB5@SPOClab.onmicrosoft.com>
+In-Reply-To: <85FB8253-7AF2-44D4-B30A-9928C85D3AB5@SPOClab.onmicrosoft.com>
+From: Erin Grant <eringrant@cs.toronto.edu>
+Date: Sun, 13 Mar 2016 06:08:52 +0000
+X-Gmail-Original-Message-ID: <CAHhEt5NiWDF08dOmukUdaiRhA18qqrYNaLQ4Dd_rp_Ni=yf6yQ@mail.gmail.com>
+Message-ID: <CAHhEt5NiWDF08dOmukUdaiRhA18qqrYNaLQ4Dd_rp_Ni=yf6yQ@mail.gmail.com>
+Subject: Re: [CSC401/2511] ASSIGNMENT 1 MARKS!!!!
+To: Frank Rudzicz <frank@spoclab.com>, Zhang Xian <c6zhangx@cdf.toronto.edu>
+Cc: "sraimond@cs.toronto.edu" <sraimond@cs.toronto.edu>, 
+	"louis.tan@mail.utoronto.ca" <louis.tan@mail.utoronto.ca>
+Content-Type: multipart/mixed; boundary=001a113f7ece30bfe2052de8003d
+X-UIDL: J~K"!OO9!!^HM"!p0)#!
+
+--001a113f7ece30bfe2052de8003d
+Content-Type: multipart/alternative; boundary=001a113f7ece30bfdd052de8003b
+
+--001a113f7ece30bfdd052de8003b
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi Zhang,
+
+The fact that we have a rubric for you is a mistake due to the fact that
+you were included in the assignment partner pairing process before you
+dropped the course.
+
+Cheers,
+
+Erin
+
+On Sat, 12 Mar 2016 at 21:12 Frank Rudzicz <frank@spoclab.com> wrote:
+
+> You do not appear in either my 401 or 2511 class lists. The fact that I
+> have a rubric for you appears to be an error. I=E2=80=99ve CC=E2=80=99d t=
+he TAs to let them
+> know.
+>
+> Frank
+>
+>
+> Frank Rudzicz, PhD
+>   Scientist, Toronto Rehabilitation Institute;
+>   Assistant professor (status only), Department of Computer Science,
+>         University of Toronto;
+>   Founder and Chief Science Officer, WinterLight Labs Incorporated
+>   Director, SPOClab (signal processing and oral communications)
+>
+>
+> || Website: http://www.cs.toronto.edu/~frank
+> || Twitter: @SPOClab <https://twitter.com/SPOClab>
+> || Phone (office) : 416 597 3422 x7971
+> || Fax : 416 597 3031
+>
+>
+>
+> On Mar 12, 2016, at 7:22 PM, Zhang Xian <c6zhangx@cdf.toronto.edu> wrote:
+>
+> account : c6zhangx
+> Is there any mistake?
+> I think I have dropped the course.
+> thanks,
+> c6zhangx
+>
+> On 03/12/16 18:18, frank@cs.toronto.edu wrote:
+>
+> Dear c3zhanhh and c6zhangx,
+>
+> This is an automatically generated email. Your rubric for assignment 1 is
+> attached.
+>
+> Your mark is 0/85.
+>
+>
+>
+>
+>
+> Please let me know of any questions.
+>
+>
+>
+> By your command,
+> Robot Frank
+>
+>
+>
+
+--001a113f7ece30bfdd052de8003b
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi Zhang,<div><br></div><div>The fact that we have a rubri=
+c for you is a mistake due to the fact that you were included in the assign=
+ment partner pairing process before you dropped the course.</div><div><br><=
+/div><div>Cheers,</div><div><br></div><div>Erin<br><br><div class=3D"gmail_=
+quote"><div dir=3D"ltr">On Sat, 12 Mar 2016 at 21:12 Frank Rudzicz &lt;<a h=
+ref=3D"mailto:frank@spoclab.com" target=3D"_blank">frank@spoclab.com</a>&gt=
+; wrote:<br></div><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .=
+8ex;border-left:1px #ccc solid;padding-left:1ex">
+
+
+
+<div style=3D"word-wrap:break-word">
+<div>You do not appear in either my 401 or 2511 class lists. The fact that =
+I have a rubric for you appears to be an error. I=E2=80=99ve CC=E2=80=99d t=
+he TAs to let them know.</div>
+<div><br>
+</div>
+<div>Frank</div>
+<div><br>
+</div>
+<br>
+<div>
+<div style=3D"color:rgb(0,0,0);font-family:Helvetica;font-size:12px;font-st=
+yle:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;tex=
+t-align:start;text-indent:0px;text-transform:none;white-space:normal;word-s=
+pacing:0px;word-wrap:break-word">
+Frank Rudzicz, PhD<br>
+=C2=A0=C2=A0Scientist, Toronto Rehabilitation Institute;<br>
+=C2=A0=C2=A0Assistant professor (status only), Department of Computer Scien=
+ce,<br>
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0University of Toronto;<br>
+=C2=A0=C2=A0Founder and Chief Science Officer, WinterLight Labs Incorporate=
+d<br>
+=C2=A0=C2=A0Director, SPOClab (signal processing and oral communications)<b=
+r>
+</div>
+<span style=3D"color:rgb(0,0,0);font-family:Helvetica;font-size:12px;font-s=
+tyle:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;te=
+xt-align:start;text-indent:0px;text-transform:none;white-space:normal;word-=
+spacing:0px"><br>
+<span><img height=3D"25" width=3D"58"></span><br style=3D"color:rgb(0,0,0);=
+font-family:Helvetica;font-size:12px;font-style:normal;font-variant:normal;=
+font-weight:normal;letter-spacing:normal;text-align:start;text-indent:0px;t=
+ext-transform:none;white-space:normal;word-spacing:0px">
+<span style=3D"color:rgb(0,0,0);font-family:Helvetica;font-size:12px;font-s=
+tyle:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;te=
+xt-align:start;text-indent:0px;text-transform:none;white-space:normal;word-=
+spacing:0px;float:none;display:inline!important">||
+ Website:=C2=A0</span><a href=3D"http://www.cs.toronto.edu/~frank" style=3D=
+"font-family:Helvetica;font-size:12px;font-style:normal;font-variant:normal=
+;font-weight:normal;letter-spacing:normal;text-align:start;text-indent:0px;=
+text-transform:none;white-space:normal;word-spacing:0px" target=3D"_blank">=
+http://www.cs.toronto.edu/~frank</a><br style=3D"color:rgb(0,0,0);font-fami=
+ly:Helvetica;font-size:12px;font-style:normal;font-variant:normal;font-weig=
+ht:normal;letter-spacing:normal;text-align:start;text-indent:0px;text-trans=
+form:none;white-space:normal;word-spacing:0px">
+<span style=3D"color:rgb(0,0,0);font-family:Helvetica;font-size:12px;font-s=
+tyle:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;te=
+xt-align:start;text-indent:0px;text-transform:none;white-space:normal;word-=
+spacing:0px;float:none;display:inline!important">||
+ Twitter:=C2=A0</span><a href=3D"https://twitter.com/SPOClab" style=3D"font=
+-family:Helvetica;font-size:12px;font-style:normal;font-variant:normal;font=
+-weight:normal;letter-spacing:normal;text-align:start;text-indent:0px;text-=
+transform:none;white-space:normal;word-spacing:0px" target=3D"_blank">@SPOC=
+lab</a><br style=3D"color:rgb(0,0,0);font-family:Helvetica;font-size:12px;f=
+ont-style:normal;font-variant:normal;font-weight:normal;letter-spacing:norm=
+al;text-align:start;text-indent:0px;text-transform:none;white-space:normal;=
+word-spacing:0px">
+<span style=3D"color:rgb(0,0,0);font-family:Helvetica;font-size:12px;font-s=
+tyle:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;te=
+xt-align:start;text-indent:0px;text-transform:none;white-space:normal;word-=
+spacing:0px;float:none;display:inline!important">||
+ Phone (office) : 416 597 3422 x7971</span><br style=3D"color:rgb(0,0,0);fo=
+nt-family:Helvetica;font-size:12px;font-style:normal;font-variant:normal;fo=
+nt-weight:normal;letter-spacing:normal;text-align:start;text-indent:0px;tex=
+t-transform:none;white-space:normal;word-spacing:0px">
+<span style=3D"color:rgb(0,0,0);font-family:Helvetica;font-size:12px;font-s=
+tyle:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;te=
+xt-align:start;text-indent:0px;text-transform:none;white-space:normal;word-=
+spacing:0px;float:none;display:inline!important">||
+ Fax : 416 597 3031</span><br style=3D"color:rgb(0,0,0);font-family:Helveti=
+ca;font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;=
+letter-spacing:normal;text-align:start;text-indent:0px;text-transform:none;=
+white-space:normal;word-spacing:0px">
+<br style=3D"color:rgb(0,0,0);font-family:Helvetica;font-size:12px;font-sty=
+le:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;text=
+-align:start;text-indent:0px;text-transform:none;white-space:normal;word-sp=
+acing:0px">
+<br style=3D"color:rgb(0,0,0);font-family:Helvetica;font-size:12px;font-sty=
+le:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;text=
+-align:start;text-indent:0px;text-transform:none;white-space:normal;word-sp=
+acing:0px">
+</span></div>
+<br>
+<div>
+<blockquote type=3D"cite">
+<div>On Mar 12, 2016, at 7:22 PM, Zhang Xian &lt;<a href=3D"mailto:c6zhangx=
+@cdf.toronto.edu" target=3D"_blank">c6zhangx@cdf.toronto.edu</a>&gt; wrote:=
+</div>
+<br>
+<div>
+<div>account : c6zhangx<br>
+Is there any mistake?<br>
+I think I have dropped the course.<br>
+thanks,<br>
+c6zhangx<br>
+<br>
+On 03/12/16 18:18, <a href=3D"mailto:frank@cs.toronto.edu" target=3D"_blank=
+">frank@cs.toronto.edu</a> wrote:<br>
+<blockquote type=3D"cite">Dear c3zhanhh and c6zhangx,<br>
+<br>
+This is an automatically generated email. Your rubric for assignment 1 is a=
+ttached.<br>
+<br>
+Your mark is 0/85.<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+Please let me know of any questions.<br>
+<br>
+<br>
+<br>
+By your command,<br>
+Robot Frank<br>
+<br>
+</blockquote>
+</div>
+</div>
+</blockquote>
+</div>
+<br>
+</div>
+
+</blockquote></div></div></div>
+
+--001a113f7ece30bfdd052de8003b--
+--001a113f7ece30bfe2052de8003d
+Content-Type: image/png; name="image003.png"
+Content-Disposition: attachment; filename="image003.png"
+Content-Transfer-Encoding: base64
+Content-ID: <1536e962c00692e331>
+X-Attachment-Id: 1536e962c00692e331
+
+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
+gg==
+--001a113f7ece30bfe2052de8003d
+Content-Type: image/png; name="image003.png"
+Content-Disposition: attachment; filename="image003.png"
+Content-Transfer-Encoding: base64
+Content-ID: <1536e966461692e331>
+X-Attachment-Id: 1536e966461692e331
+
+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
+gg==
+--001a113f7ece30bfe2052de8003d--
+
+

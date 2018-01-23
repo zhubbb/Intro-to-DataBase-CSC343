@@ -1,0 +1,24 @@
+
+dbsrv1:~/prep9% xmllint --valid books.xml
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE BOOKS SYSTEM "books.dtd">
+<BOOKS>
+   <BOOK title="RealLife" year="1988">
+      <AUTHOR name="Raby"/>
+      <RATING value="3"/>
+      <RATING value="4"/>       
+      <REVIEW username="Voka">
+         "Hi, i am Voka!"       
+      </REVIEW>         
+   </BOOK>
+   <BOOK title="Engsci" year="2011">
+      <AUTHOR name="Fenil"/>
+      <RATING value="2"/>
+      <RATING value="1"/>
+   </BOOK>
+   <BOOK title="Computer Intro" year="1999">
+      <AUTHOR name="Coler"/>
+      <RATING value="5"/>
+      <RATING value="5"/>
+   </BOOK>
+</BOOKS>

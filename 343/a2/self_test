@@ -1,0 +1,2 @@
+#!/bin/bash
+python ~csc343h/winter/public_html/assignments/a2/self_test/self_test.py `pwd` $1

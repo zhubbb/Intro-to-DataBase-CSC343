@@ -1,0 +1,28 @@
+drop schema if exists Jobs cascade;
+create schema Jobs;
+set search_path to Jobs;
+
+create table postings(
+	pID text PRIMARY KEY,
+	position text not null
+) ;
+
+
+create table reqSkill(
+	pID text references postings,
+	level integer not null check( level<=5 and level >=1),
+	importance integer not null check( level<=5 and level >=1),
+   what text check(what in ('SQL','Scheme','Python','R','LaTeX')),
+	primary key (what, pID)
+);
+
+create table questions(
+	pID text references postings(pID),
+	qID text primary key,
+	question text not null
+);
+
+
+
+ 
+

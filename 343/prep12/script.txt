@@ -1,0 +1,13 @@
+csc343h-c6zhangx=> \i DDL.txt
+psql:DDL.txt:1: NOTICE:  drop cascades to 2 other objects
+DETAIL:  drop cascades to table postings
+drop cascades to table questions
+DROP SCHEMA
+CREATE SCHEMA
+SET
+psql:DDL.txt:8: NOTICE:  CREATE TABLE / PRIMARY KEY will create implicit index "postings_pkey" for table "postings"
+CREATE TABLE
+psql:DDL.txt:17: NOTICE:  CREATE TABLE / PRIMARY KEY will create implicit index "reqskill_pkey" for table "reqskill"
+CREATE TABLE
+psql:DDL.txt:23: NOTICE:  CREATE TABLE / PRIMARY KEY will create implicit index "questions_pkey" for table "questions"
+CREATE TABLE

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+<book isbn="3333" category="WEB">
+<title lang="en">XQuery Kick Start</title>
+<author>James McGovern</author>
+<author>Per Bothner</author>
+<author>Kurt Cagle</author>
+<author>James Linn</author>
+<author>Vaidyanathan Nagarajan</author>
+<year>2003</year>
+<price>59.99</price>
+</book>
+<book isbn="4444" category="WEB">
+<title lang="en">Learning XML</title>
+<author>Erik T. Ray</author>
+<year>2003</year>
+<price>49.95</price>
+</book>
+<book isbn="5555" category="WEB">
+<title lang="en">Data on the Web</title>
+<author>Serge Abiteboul</author>
+<author>Peter Buneman</author>
+<author>Suciu Dan</author>
+<year>2000</year>
+<price>59.95</price>
+</book>
+</bookstore>

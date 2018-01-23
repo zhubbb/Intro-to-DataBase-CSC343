@@ -1,0 +1,42 @@
+<COMMERCIAL_UNITS><UNIT><INFO rented_by="renter_3">
+               <RENT_AMOUNT>5000</RENT_AMOUNT>
+               <RENT_PERIOD>montly</RENT_PERIOD>
+            </INFO><ADDRESS>
+         <UNIT_NUM>251C</UNIT_NUM>
+         <STREET_NUM>10</STREET_NUM>
+         <STREET>Bloor Street West</STREET>
+         <CITY>Toronto</CITY>
+         <PROVINCE>ON</PROVINCE>
+         <COUNTRY>Canada</COUNTRY>
+         <POSTCODE>M4W 3L8</POSTCODE>
+      </ADDRESS></UNIT><UNIT><INFO>
+                  <RENT_AMOUNT>2000</RENT_AMOUNT>
+                  <RENT_PERIOD>montly</RENT_PERIOD>
+               </INFO><ADDRESS>
+         <STREET_NUM>20</STREET_NUM>
+         <STREET>Yonge Street</STREET>
+         <CITY>Toronto</CITY>
+         <PROVINCE>ON</PROVINCE>
+         <COUNTRY>Canada</COUNTRY>
+         <POSTCODE>M5E 0A6</POSTCODE>
+      </ADDRESS></UNIT><UNIT><INFO>
+                  <RENT_AMOUNT>15000</RENT_AMOUNT>
+                  <RENT_PERIOD>yearly</RENT_PERIOD>
+               </INFO><ADDRESS>
+         <STREET_NUM>20</STREET_NUM>
+         <STREET>Yonge Street</STREET>
+         <CITY>Toronto</CITY>
+         <PROVINCE>ON</PROVINCE>
+         <COUNTRY>Canada</COUNTRY>
+         <POSTCODE>M5E 0A6</POSTCODE>
+      </ADDRESS></UNIT><UNIT><INFO>
+               <RENT_AMOUNT>1875</RENT_AMOUNT>
+               <RENT_PERIOD>montly</RENT_PERIOD>
+            </INFO><ADDRESS>
+         <STREET_NUM>198</STREET_NUM>
+         <STREET>Palmerston Blvd</STREET>
+         <CITY>Toronto</CITY>
+         <PROVINCE>ON</PROVINCE>
+         <COUNTRY>Canada</COUNTRY>
+         <POSTCODE>M8V 4Z9</POSTCODE>
+      </ADDRESS></UNIT></COMMERCIAL_UNITS>

@@ -1,0 +1,101 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE interviews SYSTEM "interview.dtd">
+<interviews>
+   <interview rID="r0001" pID="p123" sID="s001">
+      <date>
+         20200101
+      </date>
+      <time>
+         1530
+      </time>
+      <location>
+         St.George Campus
+      </location>
+      <assessment>
+         <answers>
+            <answer qID="1">
+               100
+            </answer>
+	    <answer qID="2">
+               50
+            </answer>
+         </answers>
+	 <techProficiency>
+            100
+         </techProficiency>
+	 <communication>
+            100
+         </communication>
+	 <enthusiasm>
+            100
+         </enthusiasm>
+      </assessment>
+   </interview>
+
+   <interview rID="r0002" pID="p666" sID="s002">
+      <date>
+         20200101
+      </date>
+      <time>
+         1600
+      </time>
+      <location>
+         St.George Campus
+      </location>
+      <assessment>
+         <answers>
+            <answer qID="1">
+               60
+            </answer>
+	    <answer qID="2">
+               60
+            </answer>
+         </answers>
+	 <techProficiency>
+            0
+         </techProficiency>
+	 <communication>
+            50
+         </communication>
+	 <enthusiasm>
+            0
+         </enthusiasm>
+	 <collegiality>
+            50
+         </collegiality>
+
+      </assessment>
+   </interview>
+
+   <interviewer sID="s001">
+      <forename>
+        Monkey
+      </forename>
+      <surname>
+        Big
+      </surname>
+      <honorific>
+        Dr.
+      </honorific>
+      <title>
+        Chief Monkey Officer
+      </title>
+   </interviewer>
+
+   <interviewer sID="s002">
+      <forename>
+        Monkey
+      </forename>
+      <surname>
+        Second
+      </surname>
+      <honorific>
+        Dr.
+      </honorific>
+      <title>
+        Chief Monkey Officer
+      </title>
+   </interviewer>
+</interviews>
+
+

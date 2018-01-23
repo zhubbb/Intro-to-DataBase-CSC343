@@ -1,0 +1,185 @@
+Checking Assignment 3 (Part 1) Solutions
+
+============================== Query q1  ==============================
+
+------ raw output ------
+
+<skilled><candidate rid="r0002" numskills="3"><name>
+               Monkey
+            </name></candidate></skilled>
+
+------ formatted output (therefore well-formed) ------
+
+<?xml version="1.0" standalone="no"?>
+<skilled>
+  <candidate rid="r0002" numskills="3">
+    <name>
+               Monkey
+            </name>
+  </candidate>
+</skilled>
+
+------ checking validity of output ------
+
+Are there any validity errors? (no news is good news)
+
+============================== Query q2  ==============================
+
+------ raw output ------
+
+<collegiality><forgot sid="s001"/></collegiality>
+
+------ formatted output (therefore well-formed) ------
+
+<?xml version="1.0" standalone="no"?>
+<collegiality>
+  <forgot sid="s001"/>
+</collegiality>
+
+------ checking validity of output ------
+
+Are there any validity errors? (no news is good news)
+
+============================== Query q3  ==============================
+
+------ raw output ------
+
+<priorities><posting pID="p123"><skill importance="2">SQL</skill></posting><posting pID="p123"><skill importance="2">Python</skill></posting><posting pID="p666"><skill importance="4">SQL</skill></posting></priorities>
+
+------ formatted output (therefore well-formed) ------
+
+<?xml version="1.0" standalone="no"?>
+<priorities>
+  <posting pID="p123">
+    <skill importance="2">SQL</skill>
+  </posting>
+  <posting pID="p123">
+    <skill importance="2">Python</skill>
+  </posting>
+  <posting pID="p666">
+    <skill importance="4">SQL</skill>
+  </posting>
+</priorities>
+
+------ checking validity of output ------
+
+Are there any validity errors? (no news is good news)
+
+============================== Query q4  ==============================
+
+------ raw output ------
+
+<missingskills><problemposting pID="p666"><skill what="LaTeX"/></problemposting></missingskills>
+
+------ formatted output (therefore well-formed) ------
+
+<?xml version="1.0" standalone="no"?>
+<missingskills>
+  <problemposting pID="p666">
+    <skill what="LaTeX"/>
+  </problemposting>
+</missingskills>
+
+------ checking validity of output ------
+
+Are there any validity errors? (no news is good news)
+
+============================== Query q5  ==============================
+
+------ raw output ------
+
+<rareskills numresumes="3"><posting pID="p123" skill="SQL" numwith="3" numhigh="1"/><posting pID="p666" skill="SQL" numwith="3" numhigh="1"/><posting pID="p666" skill="R" numwith="1" numhigh="1"/><posting pID="p666" skill="LaTeX" numwith="0" numhigh="0"/></rareskills>
+
+------ formatted output (therefore well-formed) ------
+
+<?xml version="1.0" standalone="no"?>
+<rareskills numresumes="3">
+  <posting pID="p123" skill="SQL" numwith="3" numhigh="1"/>
+  <posting pID="p666" skill="SQL" numwith="3" numhigh="1"/>
+  <posting pID="p666" skill="R" numwith="1" numhigh="1"/>
+  <posting pID="p666" skill="LaTeX" numwith="0" numhigh="0"/>
+</rareskills>
+
+------ checking validity of output ------
+
+Are there any validity errors? (no news is good news)
+
+============================== Query q6  ==============================
+
+------ raw output ------
+
+<histogram><skill name="SQL"><count level="1" n="2"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="1"/></skill><skill name="Python"><count level="1" n="1"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="2"/></skill><skill name="R"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="1"/></skill><skill name="LaTeX"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="0"/></skill></histogram>
+
+------ formatted output (therefore well-formed) ------
+
+<?xml version="1.0" standalone="no"?>
+<histogram>
+  <skill name="SQL">
+    <count level="1" n="2"/>
+    <count level="2" n="0"/>
+    <count level="3" n="0"/>
+    <count level="4" n="0"/>
+    <count level="5" n="1"/>
+  </skill>
+  <skill name="Python">
+    <count level="1" n="1"/>
+    <count level="2" n="0"/>
+    <count level="3" n="0"/>
+    <count level="4" n="0"/>
+    <count level="5" n="2"/>
+  </skill>
+  <skill name="R">
+    <count level="1" n="0"/>
+    <count level="2" n="0"/>
+    <count level="3" n="0"/>
+    <count level="4" n="0"/>
+    <count level="5" n="1"/>
+  </skill>
+  <skill name="LaTeX">
+    <count level="1" n="0"/>
+    <count level="2" n="0"/>
+    <count level="3" n="0"/>
+    <count level="4" n="0"/>
+    <count level="5" n="0"/>
+  </skill>
+</histogram>
+
+------ checking validity of output ------
+
+Are there any validity errors? (no news is good news)
+
+============================== Query q7  ==============================
+
+------ raw output ------
+
+<report><interview><who rID="r0001" forename="                Monkey             " surname="                Big             "/><position>
+         sale representative
+      </position><match>4</match><average>90</average></interview><interview><who rID="r0002" forename="                Monkey             " surname="                Second             "/><position>
+         manager
+      </position><match>-4</match><average>36.6666666667</average></interview></report>
+
+------ formatted output (therefore well-formed) ------
+
+<?xml version="1.0" standalone="no"?>
+<report>
+  <interview>
+    <who rID="r0001" forename="                Monkey             " surname="                Big             "/>
+    <position>
+         sale representative
+      </position>
+    <match>4</match>
+    <average>90</average>
+  </interview>
+  <interview>
+    <who rID="r0002" forename="                Monkey             " surname="                Second             "/>
+    <position>
+         manager
+      </position>
+    <match>-4</match>
+    <average>36.6666666667</average>
+  </interview>
+</report>
+
+------ checking validity of output ------
+
+Are there any validity errors? (no news is good news)

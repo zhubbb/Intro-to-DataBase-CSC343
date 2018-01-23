@@ -1,0 +1,315 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE resumes SYSTEM "resume.dtd">
+<resumes>
+   <resume rID="r0001">
+      <summary>
+         I am a honest man
+      </summary>
+      <identification >
+         <name>
+            <forename>
+               Monkey
+            </forename>
+            <surname>
+               Big
+            </surname>
+            <honorific>
+               Dr.
+            </honorific>
+            <title>
+               Chief Monkey Officer
+            </title>
+         </name>
+         <sex>
+	   male
+	 </sex>
+         <DOB>
+	   JAN 1,2017
+	 </DOB>
+         <citizenship>
+	   yes
+	 </citizenship>
+         <address>
+	   001 Bay street Toronto Ontario Canada M0G0Y0
+	 </address>
+         <telephone>
+	   4166666666
+	 </telephone>
+         <email>
+	   monkey@utoronto.ca
+	 </email>
+      </identification>
+      <education>
+         <degree level="masters">
+            <degreeName>
+               Bachelor of Science 
+            </degreeName>
+            <institution>
+               U of T
+            </institution>
+            <major>
+               ECE
+            </major>
+            <minor>
+               Biology
+            </minor>
+            <honours/>
+            <period>
+               <startDate>
+		  20170101
+	       </startDate>      
+               <endDate>
+		  20170901
+	       </endDate>   	
+            </period>
+         </degree>
+      </education>
+      <experience>
+         <position where="IBM">
+            <title>
+               Chief Monkey Officer
+            </title>
+            <description>
+               do what a monkey does
+            </description>
+            <period>
+               <startDate>
+		  20180101
+	       </startDate>      
+               <endDate>
+		  20180901
+	       </endDate>   	
+            </period>
+         </position>
+         <position where="AMD">
+            <title>
+               Chief Monkey Officer
+            </title>
+            <description>
+               do what a monkey does
+            </description>
+            <period>
+               <startDate>
+		  20190101
+	       </startDate>      
+               <endDate>
+		  20190901
+	       </endDate>   	
+            </period>
+         </position>
+      </experience>
+      <skills>
+         <skill what="SQL" level="1"/>
+         <skill what="Python" level="5"/>
+      </skills>
+   </resume>
+
+
+   <resume rID="r0002">
+      <summary>
+         I am a honest man
+      </summary>
+      <identification >
+         <name>
+            <forename>
+               Monkey
+            </forename>
+            <surname>
+               Second
+            </surname>
+            <honorific>
+               Dr.
+            </honorific>
+            <title>
+               Chief Monkey Officer
+            </title>
+         </name>
+         <sex>
+	   male
+	 </sex>
+         <DOB>
+	   JAN 1,2012
+	 </DOB>
+         <citizenship>
+	   no
+	 </citizenship>
+         <address>
+	   001 Bay street Toronto Ontario Canada M0G0Y0
+	 </address>
+         <telephone>
+	   4166666666
+	 </telephone>
+         <email>
+	   monkey2222@utoronto.ca
+	 </email>
+      </identification>
+      <education>
+         <degree level="masters">
+            <degreeName>
+               Bachelor of Science 
+            </degreeName>
+            <institution>
+               U of T
+            </institution>
+            <major>
+               ECE
+            </major>
+            <minor>
+               Biology
+            </minor>
+            <honours/>
+            <period>
+               <startDate>
+		  20170101
+	       </startDate>      
+               <endDate>
+		  20170901
+	       </endDate>   	
+            </period>
+         </degree>
+      </education>
+      <experience>
+         <position where="IBM">
+            <title>
+               Chief Monkey Officer
+            </title>
+            <description>
+               do what a monkey does
+            </description>
+            <period>
+               <startDate>
+		  20180101
+	       </startDate>      
+               <endDate>
+		  20180901
+	       </endDate>   	
+            </period>
+         </position>
+         <position where="AMD">
+            <title>
+               Chief Monkey Officer
+            </title>
+            <description>
+               do what a monkey does
+            </description>
+            <period>
+               <startDate>
+		  20190101
+	       </startDate>      
+               <endDate>
+		  20190901
+	       </endDate>   	
+            </period>
+         </position>
+      </experience>
+      <skills>
+         <skill what="SQL" level="1"/>
+         <skill what="Python" level="1"/>
+	 <skill what="R" level="5"/>
+      </skills>
+   </resume>
+
+   <resume rID="r0003">
+      <summary>
+         I am a honest man
+      </summary>
+      <identification >
+         <name>
+            <forename>
+Monkey
+            </forename>
+            <surname>
+               333
+            </surname>
+            <honorific>
+               Dr.
+            </honorific>
+            <title>
+               Chief Monkey Officer
+            </title>
+         </name>
+         <sex>
+	   male
+	 </sex>
+         <DOB>
+	   JAN 1,2017
+	 </DOB>
+         <citizenship>
+	   yes
+	 </citizenship>
+         <address>
+	   001 Bay street Toronto Ontario Canada M0G0Y0
+	 </address>
+         <telephone>
+	   4166666666
+	 </telephone>
+         <email>
+	   monkey33@utoronto.ca
+	 </email>
+      </identification>
+      <education>
+         <degree level="masters">
+            <degreeName>
+               Bachelor of Science 
+            </degreeName>
+            <institution>
+               U of T
+            </institution>
+            <major>
+               ECE
+            </major>
+            <minor>
+               Biology
+            </minor>
+            <honours/>
+            <period>
+               <startDate>
+		  20170101
+	       </startDate>      
+               <endDate>
+		  20170901
+	       </endDate>   	
+            </period>
+         </degree>
+      </education>
+      <experience>
+         <position where="IBM">
+            <title>
+               Chief Monkey Officer
+            </title>
+            <description>
+               do what a monkey does
+            </description>
+            <period>
+               <startDate>
+		  20180101
+	       </startDate>      
+               <endDate>
+		  20180901
+	       </endDate>   	
+            </period>
+         </position>
+         <position where="AMD">
+            <title>
+               Chief Monkey Officer
+            </title>
+            <description>
+               do what a monkey does
+            </description>
+            <period>
+               <startDate>
+		  20190101
+	       </startDate>      
+               <endDate>
+		  20190901
+	       </endDate>   	
+            </period>
+         </position>
+      </experience>
+      <skills>
+         <skill what="SQL" level="5"/>
+         <skill what="Python" level="5"/>
+      </skills>
+   </resume>
+
+</resumes> 

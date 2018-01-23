@@ -1,0 +1,342 @@
+import java.sql.*;
+// You should use this class so that you can represent SQL points as
+// Java PGpoint objects.
+import org.postgresql.geometric.PGpoint;
+
+// If you are looking for Java data structures, these are highly useful.
+// However, you can write the solution without them.  And remember
+// that part of your mark is for doing as much in SQL (not Java) as you can.
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Set;
+
+public class Assignment2 {
+
+   // A connection to the database
+   Connection connection;
+	
+	
+   Assignment2() throws SQLException {
+      try {
+         Class.forName("org.postgresql.Driver");
+      } catch (ClassNotFoundException e) {
+         e.printStackTrace();
+      }
+   }
+
+  /**
+   * Connects and sets the search path.
+   *
+   * Establishes a connection to be used for this session, assigning it to
+   * the instance variable 'connection'.  In addition, sets the search
+   * path to uber.
+   *
+   * @param  url       the url for the database
+   * @param  username  the username to connect to the database
+   * @param  password  the password to connect to the database
+   * @return           true if connecting is successful, false otherwise
+   */
+   public boolean connectDB(String URL, String username, String password) {
+      // Implement this method!
+		try{
+			connection = DriverManager.getConnection(URL, username, password);
+			Statement stat = connection.createStatement();
+         String query = "set search_path to uber,public";
+         stat.executeUpdate(query);
+			return true;
+		}
+		catch(Exception e){
+			e.printStackTrace();
+			return false;
+		}
+	}
+		
+      
+   
+
+  /**
+   * Closes the database connection.
+   *
+   * @return true if the closing was successful, false otherwise
+   */
+   public boolean disconnectDB() {
+      // Implement this method!
+		try{
+			connection.close();
+			return true;
+		}
+		catch(Exception e){
+			e.printStackTrace();
+		   return false;
+		}
+   }
+   
+   /* ======================= Driver-related methods ======================= */
+
+   /**
+    * Records the fact that a driver has declared that he or she is available 
+    * to pick up a client.  
+    *
+    * Does so by inserting a row into the Available table.
+    * 
+    * @param  driverID  id of the driver
+    * @param  when      the date and time when the driver became available
+    * @param  location  the coordinates of the driver at the time when 
+    *                   the driver became available
+    * @return           true if the insertion was successful, false otherwise. 
+    */
+   public boolean available(int driverID, Timestamp when, PGpoint location) {
+      // Implement this method!
+		try{
+			String query = "INSERT INTO available VALUES (?,?,?)";
+			PreparedStatement ps = connection.prepareStatement(query);
+			ps.setInt(1, driverID);
+         ps.setTimestamp(2, when);
+ 			ps.setObject(3, location);
+			ps.executeUpdate();
+			return true;
+		}
+
+      catch(Exception e){
+		e.printStackTrace();
+		   return false;
+		}
+   }
+
+   /**
+    * Records the fact that a driver has picked up a client.
+    *
+    * If the driver was dispatched to pick up the client and the corresponding
+    * pick-up has not been recorded, records it by adding a row to the
+    * Pickup table, and returns true.  Otherwise, returns false.
+    * 
+    * @param  driverID  id of the driver
+    * @param  clientID  id of the client
+    * @param  when      the date and time when the pick-up occurred
+    * @return           true if the operation was successful, false otherwise
+    */
+   public boolean picked_up(int driverID, int clientID, Timestamp when) {
+      // Implement this method!
+		try{
+			//find the corresponding request_id
+			String query = 
+			" select request_id "+
+			" from dispatch where driver_id = ? and dispatch.datetime = ( " +
+			" select max(dispatch.datetime) " + 
+			" from dispatch,request  " +
+			" where request.request_id = dispatch.request_id " +
+			" and dispatch.driver_id = ? "+
+			" and request.client_id = ? " +
+			" and dispatch.datetime < ? ) " ;
+			PreparedStatement ps = connection.prepareStatement(query);
+			ps.setInt(1, driverID);
+			ps.setInt(2, driverID);
+			ps.setInt(3, clientID);
+         ps.setTimestamp(4, when);
+			ResultSet rs=ps.executeQuery();
+			while(rs.next()){
+				int rid= rs.getInt("request_id");
+				
+				query = "select request_id from pickup where request_id = ?";
+				ps = connection.prepareStatement(query);
+				ps.setInt(1,rid);
+				rs=ps.executeQuery();
+         	if(!rs.next()){
+									
+					query = "INSERT INTO pickup VALUES (?,?)";
+					ps = connection.prepareStatement(query);
+					ps.setInt(1,rid);
+					ps.setTimestamp(2,when);
+					ps.executeUpdate();
+					return true;
+				}					
+				
+		  }
+		  return false;	
+		}
+
+      catch(Exception e){
+		e.printStackTrace();
+		   return false;
+		}
+   }
+   
+   /* ===================== Dispatcher-related methods ===================== */
+
+   /**
+    * Dispatches drivers to the clients who've requested rides in the area
+    * bounded by NW and SE.
+    * 
+    * For all clients who have requested rides in this area (i.e., whose 
+    * request has a source location in this area), dispatches drivers to them
+    * one at a time, from the client with the highest total billings down
+    * to the client with the lowest total billings, or until there are no
+    * more drivers available.
+    *
+    * Only drivers who (a) have declared that they are available and have 
+    * not since then been dispatched, and (b) whose location is in the area
+    * bounded by NW and SE, are dispatched.  If there are several to choose
+    * from, the one closest to the client's source location is chosen.
+    * In the case of ties, any one of the tied drivers may be dispatched.
+    *
+    * Area boundaries are inclusive.  For example, the point (4.0, 10.0) 
+    * is considered within the area defined by 
+    *         NW = (1.0, 10.0) and SE = (25.0, 2.0) 
+    * even though it is right at the upper boundary of the area.
+    *
+    * Dispatching a driver is accomplished by adding a row to the
+    * Dispatch table.  All dispatching that results from a call to this
+    * method is recorded to have happened at the same time, which is
+    * passed through parameter 'when'.
+    * 
+    * @param  NW    x, y coordinates in the northwest corner of this area.
+    * @param  SE    x, y coordinates in the southeast corner of this area.
+    * @param  when  the date and time when the dispatching occurred
+    */
+   public void dispatch(PGpoint NW, PGpoint SE, Timestamp when) {
+      // Implement this method!
+		try{
+			String requestlist = "(select list.request_id,r.client_id,p.location from ((select request_id from request) except (select request_id from dispatch)) as list, request as r, place as p where list.request_id = r.request_id and r.source = p.name and (p.location[0] between ? and ? or p.location[0] between ? and ?) and (p.location[1] between ? and ? or p.location[1] between ? and ?)) as requestlist";
+
+
+			String billhistory = "(select r.client_id, sum(b.amount) from request as r, billed as b where r.request_id=b.request_id group by r.client_id) as billhistory";
+			String orderlist = "select requestlist.request_id,requestlist.location from " + requestlist +" natural join " + billhistory+ " order by billhistory.sum desc";			
+			
+
+			PreparedStatement ps = connection.prepareStatement(orderlist);
+			ps.setDouble(1, NW.x);
+			ps.setDouble(2, SE.x);
+			ps.setDouble(3, SE.x);
+			ps.setDouble(4, NW.x);
+			ps.setDouble(5, NW.y);
+			ps.setDouble(6, SE.y);
+			ps.setDouble(7, SE.y);
+			ps.setDouble(8, NW.y);
+			
+			ResultSet rs1=ps.executeQuery();	
+			
+
+
+			String driver = "select driver_id,location from available where (location[0] between ? and ? or location[0] between ? and ?) and (location[1] between ? and ? or location[1] between ? and ?)";			
+			
+
+			ps = connection.prepareStatement(driver);
+			ps.setDouble(1, NW.x);
+			ps.setDouble(2, SE.x);
+			ps.setDouble(3, SE.x);
+			ps.setDouble(4, NW.x);
+			ps.setDouble(5, NW.y);
+			ps.setDouble(6, SE.y);
+			ps.setDouble(7, SE.y);
+			ps.setDouble(8, NW.y);
+			
+			ResultSet rs2=ps.executeQuery();
+
+
+			ArrayList<Integer> rid = new ArrayList<Integer>();	
+			ArrayList<Integer> did = new ArrayList<Integer>();	
+			ArrayList<PGpoint> requestlocation = new ArrayList<PGpoint>();		
+			ArrayList<PGpoint> driverlocation = new ArrayList<PGpoint>();		
+
+			while(rs1.next()){
+				rid.add(rs1.getInt("request_id"));
+				requestlocation.add((PGpoint)rs1.getObject("location"));		
+			}
+			while(rs2.next()){
+				did.add(rs2.getInt("driver_id"));
+				driverlocation.add((PGpoint)rs2.getObject("location"));		
+			}
+			int i=0;
+			int j=0;
+			int r, d;
+			PGpoint l1, l2;
+			int currbest=0;
+			double currdistance;
+			int didsize=did.size();
+			for(i=0; i<rid.size() && i <didsize; i++ ){
+				r=rid.get(i);
+				System.out.println(r+" !!");
+				l1=requestlocation.get(i);
+				currdistance=-1;
+				currbest=-1;
+				
+				for(j=0;j<did.size(); j++ ){
+					
+					d=did.get(j);
+					l2=driverlocation.get(j);
+					if(currdistance==-1){
+						currdistance=((l2.x-l1.x)*(l2.x-l1.x)+(l2.y-l1.y)*(l2.y-l1.y));
+						currbest=j;
+					}
+					else if(currdistance>((l2.x-l1.x)*(l2.x-l1.x)+(l2.y-l1.y)*(l2.y-l1.y))){
+						currdistance=((l2.x-l1.x)*(l2.x-l1.x)+(l2.y-l1.y)*(l2.y-l1.y));
+						currbest=j;					
+					}
+				}
+				d=did.get(currbest);
+				l2=driverlocation.get(currbest);
+				did.remove(currbest);
+				driverlocation.remove(currbest);
+				
+				String query = "INSERT INTO dispatch VALUES (?,?,?,?)";
+				ps = connection.prepareStatement(query);
+				ps.setInt(1, r);
+				ps.setInt(2, d);
+				ps.setObject(3, l2);
+      	   ps.setTimestamp(4, when);
+				ps.executeUpdate();
+			}
+			return;
+		}
+
+      catch(Exception e){
+		e.printStackTrace();
+		   return;
+		}
+
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+   public static void main(String[] args) {
+      // You can put testing code in here. It will not affect our autotester.
+try{
+
+
+Assignment2 a2= new Assignment2();
+      System.out.println("Boo!");
+		String url = "jdbc:postgresql://localhost:5432/csc343h-c6zhangx";
+		a2.connectDB( url, "c6zhangx", "");
+		Timestamp t= new Timestamp(0);
+
+System.out.println(t);
+		PGpoint a = new PGpoint();
+PGpoint b = new PGpoint();
+a.x=1;
+a.y=99;
+b.x=99;
+b.y=99;
+
+//a2.available(22222, t, a);
+
+//a2.picked_up(22222,100,t);
+
+	a2.dispatch(a , b, t);
+}
+      catch(Exception e){
+		e.printStackTrace();
+		   return;
+		}
+   }
+}
